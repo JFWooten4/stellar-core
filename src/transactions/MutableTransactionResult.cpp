@@ -450,4 +450,5 @@ FeeBumpMutableTransactionResult::clone() const
         new FeeBumpMutableTransactionResult(*this));
 }
 #endif
-}
+
+} // namespace stellar

@@ -680,4 +680,5 @@ ManageOfferOpFrameBase::doesAccessFrozenKey(
 
     return false;
 }
-}
+
+} // namespace stellar

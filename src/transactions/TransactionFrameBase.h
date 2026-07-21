@@ -301,4 +301,5 @@ class TransactionFrameBase
 
     virtual ~TransactionFrameBase() = default;
 };
-}
+
+} // namespace stellar

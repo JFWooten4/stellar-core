@@ -390,4 +390,5 @@ void appendToAccumulatedLcm(LedgerCloseMeta const& lcm);
 void captureLastClosedLedgerLcm(Application& app);
 
 } // end txtest namespace
-}
+
+} // namespace stellar

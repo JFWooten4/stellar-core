@@ -460,4 +460,5 @@ class BucketManager : NonMovableOrCopyable
 #define SKIP_2 5000
 #define SKIP_3 50000
 #define SKIP_4 500000
-}
+
+} // namespace stellar

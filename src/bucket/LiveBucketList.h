@@ -58,4 +58,4 @@ class LiveBucketList : public BucketListBase<LiveBucket>
     void maybeInitializeCaches(Config const& cfg) const;
 };
 
-}
+} // namespace stellar

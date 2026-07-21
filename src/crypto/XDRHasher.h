@@ -102,4 +102,5 @@ template <typename Derived> struct XDRHasher
         xdr::xdr_traits<T>::save(*this, t);
     }
 };
-}
+
+} // namespace stellar

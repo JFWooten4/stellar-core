@@ -417,4 +417,5 @@ HerderPersistence::deleteOldEntries(soci::session& sess, uint32_t ledgerSeq,
     DatabaseUtils::deleteOldEntriesHelper(sess, ledgerSeq, count, "scpquorums",
                                           "lastledgerseq");
 }
-}
+
+} // namespace stellar

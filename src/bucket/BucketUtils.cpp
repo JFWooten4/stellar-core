@@ -442,4 +442,5 @@ buildTypeRangesMap(
 
     return typeRanges;
 }
-}
+
+} // namespace stellar

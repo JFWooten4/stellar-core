@@ -649,4 +649,5 @@ runQuorumIntersectionCheckAsync(
 }
 
 } // namespace quorum_checker
+
 } // namespace stellar

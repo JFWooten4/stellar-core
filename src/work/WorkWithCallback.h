@@ -25,4 +25,5 @@ class WorkWithCallback : public BasicWork
         return true;
     };
 };
-}
+
+} // namespace stellar

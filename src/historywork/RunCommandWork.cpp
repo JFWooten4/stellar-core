@@ -79,4 +79,5 @@ RunCommandWork::onAbort()
 
     return mApp.getProcessManager().tryProcessShutdown(process);
 }
-}
+
+} // namespace stellar

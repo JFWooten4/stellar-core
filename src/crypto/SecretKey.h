@@ -193,7 +193,8 @@ Hash random();
 Hash pseudoRandomForTesting();
 #endif
 }
-}
+
+} // namespace stellar
 
 namespace std
 {

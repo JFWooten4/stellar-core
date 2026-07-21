@@ -3941,4 +3941,4 @@ TEST_CASE("incoming PREPARE with non-tx-set-invalid value is dropped",
 }
 #endif // CAP_0087
 
-}
+} // namespace stellar

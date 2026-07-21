@@ -49,4 +49,5 @@ BinaryFuseFilter<T>::operator==(BinaryFuseFilter<T> const& other) const
 template class BinaryFuseFilter<uint8_t>;
 template class BinaryFuseFilter<uint16_t>;
 template class BinaryFuseFilter<uint32_t>;
-}
+
+} // namespace stellar

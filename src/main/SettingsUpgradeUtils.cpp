@@ -287,4 +287,4 @@ getInvokeTx(PublicKey const& publicKey, LedgerKey const& contractCodeLedgerKey,
     return {txEnv, key};
 }
 
-}
+} // namespace stellar

@@ -257,4 +257,5 @@ class BasicWork : public std::enable_shared_from_this<BasicWork>,
     // Legal and allowed state transitions in work state machine
     static std::set<Transition> const ALLOWED_TRANSITIONS;
 };
-}
+
+} // namespace stellar

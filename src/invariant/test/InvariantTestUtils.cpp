@@ -209,4 +209,5 @@ getMinBalance(Application& app, AccountEntry const& acc)
     return getMinBalance(ltx.loadHeader().current(), acc);
 }
 }
-}
+
+} // namespace stellar

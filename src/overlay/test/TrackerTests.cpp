@@ -169,4 +169,5 @@ TEST_CASE("Tracker works", "[overlay][Tracker]")
         }
     }
 }
-}
+
+} // namespace stellar

@@ -121,4 +121,5 @@ int64_t getOpenHandleCount();
 bool removeWithLog(std::string const& path, bool ignoreEnoent = true);
 
 }
-}
+
+} // namespace stellar

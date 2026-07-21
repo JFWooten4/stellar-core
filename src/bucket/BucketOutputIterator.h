@@ -59,4 +59,5 @@ template <typename BucketT> class BucketOutputIterator
         std::shared_ptr<typename BucketT::IndexT const> preBuiltIndex =
             nullptr);
 };
-}
+
+} // namespace stellar

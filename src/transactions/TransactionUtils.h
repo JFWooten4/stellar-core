@@ -385,4 +385,5 @@ CxxLedgerEntryRentChange createEntryRentChangeWithoutModification(
     LedgerEntry const& entry, uint32_t entrySize,
     std::optional<uint32_t> entryLiveUntilLedger, uint32_t newLiveUntilLedger,
     uint32_t ledgerVersion, SorobanNetworkConfig const& sorobanConfig);
-}
+
+} // namespace stellar

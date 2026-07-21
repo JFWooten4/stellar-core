@@ -33,4 +33,5 @@ class RandomPeerSource
     PeerQuery const mPeerQuery;
     std::vector<PeerBareAddress> mPeerCache;
 };
-}
+
+} // namespace stellar

@@ -71,4 +71,5 @@ parseLedgerCount(std::string const& str)
 
     return result;
 }
-}
+
+} // namespace stellar

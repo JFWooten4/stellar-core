@@ -72,4 +72,5 @@ printAssertFailureAndThrow(char const* s1, char const* file, int line)
     printCurrentBacktrace();
     throw std::runtime_error(s1);
 }
-}
+
+} // namespace stellar

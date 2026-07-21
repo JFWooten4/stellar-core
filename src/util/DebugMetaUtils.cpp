@@ -69,4 +69,5 @@ getDebugMetaRegexForLedger(uint32_t ledgerSeq)
 }
 
 }
-}
+
+} // namespace stellar

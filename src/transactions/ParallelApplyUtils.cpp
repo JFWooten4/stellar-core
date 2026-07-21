@@ -1029,4 +1029,5 @@ TxParallelApplyLedgerState::getSnapshotLedgerSeq() const
 {
     return mThreadState.getSnapshotLedgerSeq();
 }
-}
+
+} // namespace stellar

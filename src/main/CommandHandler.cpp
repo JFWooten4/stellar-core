@@ -1644,4 +1644,5 @@ CommandHandler::toggleOverlayOnlyMode(std::string const& params,
     retStr = root.toStyledString();
 }
 #endif
-}
+
+} // namespace stellar

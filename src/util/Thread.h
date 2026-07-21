@@ -37,4 +37,5 @@ futureIsReady(std::shared_future<T> const& fut)
     auto status = fut.wait_for(std::chrono::nanoseconds(1));
     return status == std::future_status::ready;
 }
-}
+
+} // namespace stellar

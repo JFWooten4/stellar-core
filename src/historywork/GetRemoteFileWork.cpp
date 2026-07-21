@@ -82,4 +82,5 @@ GetRemoteFileWork::getCurrentArchive() const
 {
     return mCurrentArchive;
 }
-}
+
+} // namespace stellar

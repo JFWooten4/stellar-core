@@ -1756,4 +1756,5 @@ TxGenerator::invokeBatchTransfer(uint32_t ledgerNum, uint64_t sourceAccountId,
 
     return std::make_pair(sourceAccount, tx);
 }
-}
+
+} // namespace stellar

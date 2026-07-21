@@ -120,4 +120,5 @@ class CovMarkGuard
 #define COVMARK_CHECK_HIT_IN_CURR_SCOPE(covmark) ((void)0)
 
 #endif // BUILD_TESTS
-}
+
+} // namespace stellar

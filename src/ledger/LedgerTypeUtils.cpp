@@ -72,4 +72,5 @@ ledgerEntrySizeForRent(LedgerEntry const& entry, uint32_t entryXdrSize,
     }
     return entrySizeForRent;
 }
-};
+
+} // namespace stellar

@@ -151,4 +151,5 @@ class InMemoryLedgerTxn : public LedgerTxn
                      std::unordered_set<int64_t>& exclude) override;
 #endif
 };
-}
+
+} // namespace stellar

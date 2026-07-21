@@ -905,4 +905,4 @@ SurveyManager::createTimeSlicedSurveyRequestForTesting(
 }
 #endif
 
-}
+} // namespace stellar

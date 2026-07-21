@@ -27,4 +27,5 @@ CreatePassiveSellOfferOpFrame::CreatePassiveSellOfferOpFrame(
     , ManageSellOfferOpFrame(mCreateOp, parentTx, true)
 {
 }
-}
+
+} // namespace stellar

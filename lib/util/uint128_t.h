@@ -1177,4 +1177,5 @@ uint128_bits(uint128_t const& x)
     }
 }
 #endif
-}
+
+} // namespace stellar

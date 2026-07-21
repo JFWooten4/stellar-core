@@ -45,4 +45,5 @@ class ChangeTrustOpFrame : public OperationFrame
         return res.tr().changeTrustResult().code();
     }
 };
-}
+
+} // namespace stellar

@@ -3784,4 +3784,5 @@ LedgerTxnRoot::Impl::getFromBestOffers(Asset const& buying,
         throw;
     }
 }
-}
+
+} // namespace stellar

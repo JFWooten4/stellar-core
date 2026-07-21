@@ -1192,4 +1192,4 @@ getStellarCoreMajorReleaseVersion(std::string const& vstr)
     return std::nullopt;
 }
 
-}
+} // namespace stellar

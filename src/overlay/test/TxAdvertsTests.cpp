@@ -130,4 +130,5 @@ TEST_CASE("advert queue", "[flood][pullmode][acceptance]")
         }
     }
 }
-}
+
+} // namespace stellar

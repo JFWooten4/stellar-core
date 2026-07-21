@@ -2310,4 +2310,5 @@ TEST_CASE("frozen offers are transparent to DEX matching - randomized",
     REQUIRE(totalTxsSucceeded > 0);
 }
 } // namespace
+
 } // namespace stellar

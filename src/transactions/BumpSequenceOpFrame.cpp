@@ -86,4 +86,5 @@ BumpSequenceOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

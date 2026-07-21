@@ -443,4 +443,5 @@ BucketBase<HotArchiveBucket, HotArchiveBucket::IndexT>::mergeInternal<
 
 template class BucketBase<LiveBucket, LiveBucket::IndexT>;
 template class BucketBase<HotArchiveBucket, HotArchiveBucket::IndexT>;
-}
+
+} // namespace stellar

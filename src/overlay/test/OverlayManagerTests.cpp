@@ -329,4 +329,5 @@ TEST_CASE_METHOD(OverlayManagerTests, "broadcast() broadcasts", "[overlay]")
 {
     testBroadcast();
 }
-}
+
+} // namespace stellar

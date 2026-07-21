@@ -102,4 +102,5 @@ WorkSequence::shutdown()
 
     BasicWork::shutdown();
 }
-}
+
+} // namespace stellar

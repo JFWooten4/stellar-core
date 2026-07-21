@@ -443,4 +443,5 @@ InvariantManagerImpl::resetForFuzzer()
     }
 }
 #endif // BUILD_TESTS
-}
+
+} // namespace stellar

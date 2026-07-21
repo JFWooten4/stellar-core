@@ -59,4 +59,5 @@ template <typename BucketT> class BucketInputIterator
     size_t size() const;
     void seek(std::streamoff offset);
 };
-}
+
+} // namespace stellar

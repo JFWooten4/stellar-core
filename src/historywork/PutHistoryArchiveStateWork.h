@@ -32,4 +32,5 @@ class PutHistoryArchiveStateWork : public Work
     void doReset() override;
     State doWork() override;
 };
-}
+
+} // namespace stellar

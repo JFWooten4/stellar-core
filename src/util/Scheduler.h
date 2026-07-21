@@ -256,4 +256,5 @@ class Scheduler
                        ActionType type = ActionType::NORMAL_ACTION) const;
 #endif
 };
-}
+
+} // namespace stellar

@@ -79,4 +79,5 @@ class BucketApplicator
     size_t pos();
     size_t size() const;
 };
-}
+
+} // namespace stellar

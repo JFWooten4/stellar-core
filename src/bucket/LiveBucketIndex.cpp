@@ -415,4 +415,5 @@ LiveBucketIndex::getCurrentCacheSize() const
 template LiveBucketIndex::LiveBucketIndex(BucketManager const& bm,
                                           cereal::BinaryInputArchive& ar,
                                           std::streamoff pageSize);
-}
+
+} // namespace stellar

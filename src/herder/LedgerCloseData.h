@@ -104,4 +104,5 @@ class LedgerCloseData
 std::string stellarValueToString(Config const& c, StellarValue const& sv);
 
 #define emptyUpgradeSteps (xdr::xvector<UpgradeType, 6>(0))
-}
+
+} // namespace stellar

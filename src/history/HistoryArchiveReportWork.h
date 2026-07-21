@@ -26,4 +26,5 @@ class HistoryArchiveReportWork : public WorkSequence
     std::vector<std::shared_ptr<GetHistoryArchiveStateWork>>
         mGetHistoryArchiveStateWorks;
 };
-}
+
+} // namespace stellar

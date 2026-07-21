@@ -626,4 +626,5 @@ CatchupWork::onSuccess()
     CLOG_INFO(History, "Catchup finished");
     Work::onSuccess();
 }
-}
+
+} // namespace stellar

@@ -37,4 +37,5 @@ GunzipFileWork::onReset()
     std::string filenameNoGz = mFilenameGz.substr(0, mFilenameGz.size() - 3);
     fs::removeWithLog(filenameNoGz);
 }
-}
+
+} // namespace stellar

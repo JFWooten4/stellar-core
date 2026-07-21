@@ -73,4 +73,5 @@ getPublishHistoryDir(FileType type, Config const& cfg)
     std::filesystem::path root = cfg.BUCKET_DIR_PATH;
     return root / HISTORY_LOCAL_DIR_NAME / typeString(type);
 }
-}
+
+} // namespace stellar

@@ -125,4 +125,5 @@ class BucketTestApplication : public TestApplication
     }
 };
 }
-}
+
+} // namespace stellar

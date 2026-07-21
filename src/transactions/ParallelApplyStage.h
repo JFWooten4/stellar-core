@@ -146,4 +146,4 @@ class ApplyStage
     std::vector<Cluster> mClusters;
 };
 
-}
+} // namespace stellar

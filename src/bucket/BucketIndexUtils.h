@@ -113,4 +113,5 @@ template <class BucketT>
 std::shared_ptr<typename BucketT::IndexT const>
 loadIndex(BucketManager const& bm, std::filesystem::path const& filename,
           std::size_t fileSize);
-}
+
+} // namespace stellar

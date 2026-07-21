@@ -22,4 +22,5 @@ class MakeRemoteDirWork : public RunCommandWork
                       std::shared_ptr<HistoryArchive> archive);
     ~MakeRemoteDirWork() = default;
 };
-}
+
+} // namespace stellar

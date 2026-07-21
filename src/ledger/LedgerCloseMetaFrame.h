@@ -54,4 +54,4 @@ class LedgerCloseMetaFrame
     int mVersion;
 };
 
-}
+} // namespace stellar

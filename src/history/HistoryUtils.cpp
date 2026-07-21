@@ -57,4 +57,5 @@ template bool getHistoryEntryForLedger<TransactionHistoryEntry>(
 template bool getHistoryEntryForLedger<TransactionHistoryResultEntry>(
     XDRInputFileStream& stream, TransactionHistoryResultEntry& currentEntry,
     uint32_t targetLedger, std::function<void(uint32_t ledgerSeq)> validateFn);
-}
+
+} // namespace stellar

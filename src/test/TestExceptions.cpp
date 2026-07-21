@@ -696,4 +696,5 @@ throwIf(TransactionResult const& result)
     }
 }
 } // namespace txset
+
 } // namespace stellar

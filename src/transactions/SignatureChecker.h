@@ -104,4 +104,5 @@ class AlwaysValidSignatureChecker : public SignatureChecker
     ~AlwaysValidSignatureChecker() override = default;
 };
 #endif // BUILD_TESTS
-}
+
+} // namespace stellar

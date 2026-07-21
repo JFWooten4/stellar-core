@@ -111,4 +111,5 @@ RateLimitedLog::RateLimitedLog(std::string eventName, std::string message)
                        std::chrono::milliseconds::zero())
 {
 }
-}
+
+} // namespace stellar

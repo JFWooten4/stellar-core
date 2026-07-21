@@ -588,4 +588,4 @@ void updateStateSizeWindowSetting(
     std::function<void(xdr::xvector<uint64>& window)> updateFn);
 #endif
 
-}
+} // namespace stellar

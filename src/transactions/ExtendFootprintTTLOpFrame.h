@@ -69,4 +69,5 @@ class ExtendFootprintTTLOpFrame : public OperationFrame
     friend class ExtendFootprintTTLPreV23ApplyHelper;
     friend class ExtendFootprintTTLParallelApplyHelper;
 };
-}
+
+} // namespace stellar

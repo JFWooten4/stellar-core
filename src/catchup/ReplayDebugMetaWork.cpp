@@ -270,4 +270,4 @@ ReplayDebugMetaWork::doReset()
     mCurrentWorkSequence.reset();
 }
 
-}
+} // namespace stellar

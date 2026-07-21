@@ -22,4 +22,5 @@ template <typename T = void> class DatabaseTypeSpecificOperation
     doPostgresSpecificOperation(soci::postgresql_session_backend* pg) = 0;
 #endif
 };
-}
+
+} // namespace stellar

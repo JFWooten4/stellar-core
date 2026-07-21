@@ -55,4 +55,5 @@ class LiquidityPoolWithdrawOpFrame : public OperationFrame
         return res.tr().liquidityPoolWithdrawResult().code();
     }
 };
-}
+
+} // namespace stellar

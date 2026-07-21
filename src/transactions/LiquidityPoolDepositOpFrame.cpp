@@ -430,4 +430,5 @@ LiquidityPoolDepositOpFrame::doesAccessFrozenKey(
     // accessesFrozenKeyAtApplyTime, we can't check anything at validation time.
     return false;
 }
-}
+
+} // namespace stellar

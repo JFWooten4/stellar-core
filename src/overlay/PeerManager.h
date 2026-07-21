@@ -166,4 +166,5 @@ class PeerManager
     void update(PeerRecord& peer, TypeUpdate type);
     void update(PeerRecord& peer, BackOffUpdate backOff, Application& app);
 };
-}
+
+} // namespace stellar

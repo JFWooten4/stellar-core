@@ -45,4 +45,5 @@ int numberOfSimulationConnections(std::shared_ptr<Simulation> simulation);
 
 std::shared_ptr<StellarMessage> makeStellarMessage(uint32_t wasmSize);
 }
-}
+
+} // namespace stellar

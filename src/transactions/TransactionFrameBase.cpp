@@ -25,4 +25,4 @@ TransactionFrameBase::makeTransactionFromWire(Hash const& networkID,
     }
 }
 
-}
+} // namespace stellar

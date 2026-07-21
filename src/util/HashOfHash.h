@@ -24,4 +24,5 @@ struct FullHash256
 {
     size_t operator()(stellar::uint256 const& x) const noexcept;
 };
-}
+
+} // namespace stellar

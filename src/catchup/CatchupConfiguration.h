@@ -106,4 +106,5 @@ class CatchupConfiguration
 
 uint32_t parseLedger(std::string const& str);
 uint32_t parseLedgerCount(std::string const& str);
-}
+
+} // namespace stellar

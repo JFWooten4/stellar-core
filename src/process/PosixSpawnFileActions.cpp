@@ -64,6 +64,7 @@ operator posix_spawn_file_actions_t*()
 {
     return mInitialized ? &mFileActions : nullptr;
 }
-}
+
+} // namespace stellar
 
 #endif

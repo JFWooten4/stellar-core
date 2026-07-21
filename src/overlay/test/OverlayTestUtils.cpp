@@ -140,4 +140,5 @@ makeStellarMessage(uint32_t wasmSize)
     return std::make_shared<StellarMessage>(msg);
 }
 }
-}
+
+} // namespace stellar

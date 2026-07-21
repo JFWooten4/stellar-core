@@ -174,4 +174,5 @@ class LoopbackPeerConnection
     std::shared_ptr<LoopbackPeer> getInitiator() const;
     std::shared_ptr<LoopbackPeer> getAcceptor() const;
 };
-}
+
+} // namespace stellar

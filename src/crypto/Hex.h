@@ -21,4 +21,5 @@ std::vector<uint8_t> hexToBin(std::string const& hex);
 
 // Hex-decode exactly 32 bytes from a hex string, throw if not 32 bytes.
 uint256 hexToBin256(std::string const& encoded);
-}
+
+} // namespace stellar

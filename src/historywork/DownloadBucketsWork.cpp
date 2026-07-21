@@ -234,4 +234,5 @@ template std::pair<std::shared_ptr<BasicWork>,
 DownloadBucketsWork::prepareWorkForBucketType<HotArchiveBucket>(
     std::string const&, FileTransferInfo const&, OnFailureCallback const&,
     DownloadBucketsWork::BucketState<HotArchiveBucket>&);
-}
+
+} // namespace stellar

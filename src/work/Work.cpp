@@ -274,4 +274,5 @@ getWorkStatus(std::list<std::shared_ptr<BasicWork>> const& works)
     return BasicWork::State::WORK_RUNNING;
 }
 }
-}
+
+} // namespace stellar

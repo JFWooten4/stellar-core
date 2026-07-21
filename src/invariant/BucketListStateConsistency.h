@@ -23,4 +23,5 @@ class BucketListStateConsistency : public Invariant
                   InMemorySorobanState const& inMemorySnapshot,
                   std::function<bool()> isStopping) override;
 };
-}
+
+} // namespace stellar

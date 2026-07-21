@@ -228,5 +228,6 @@ OrderBookIsNotCrossed::resetForFuzzer()
     mOrderBook.clear();
     mRestoreBeforeNextUpdate = true;
 }
-}
+
+} // namespace stellar
 #endif // BUILD_TESTS

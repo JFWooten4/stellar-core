@@ -263,4 +263,5 @@ normalizeQSet(SCPQuorumSet& qSet, NodeID const* idToRemove)
     normalizeQSetSimplify(qSet, idToRemove);
     normalizeQuorumSetReorder(qSet);
 }
-}
+
+} // namespace stellar

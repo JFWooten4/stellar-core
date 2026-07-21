@@ -764,4 +764,5 @@ Database::getPreparedStatement(std::string const& query,
     p->prepare(query);
     return StatementContext(p);
 }
-}
+
+} // namespace stellar

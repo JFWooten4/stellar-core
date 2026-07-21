@@ -198,4 +198,5 @@ class ConfigUpgradeSetFrame
     bool mValidXDR;
     uint32_t const mLedgerVersion;
 };
-}
+
+} // namespace stellar

@@ -84,4 +84,5 @@ class ProcessManager : public std::enable_shared_from_this<ProcessManager>,
     {
     }
 };
-}
+
+} // namespace stellar

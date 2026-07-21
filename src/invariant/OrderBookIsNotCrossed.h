@@ -76,5 +76,6 @@ class OrderBookIsNotCrossed : public Invariant
     void updateOrderBook(LedgerTxnDelta const& ltxd);
     std::string check(AssetPairSet const& assetPairs);
 };
-}
+
+} // namespace stellar
 #endif // BUILD_TESTS

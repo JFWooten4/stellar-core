@@ -8,5 +8,6 @@
 namespace stellar
 {
 CovMarks gCovMarks;
-}
+
+} // namespace stellar
 #endif

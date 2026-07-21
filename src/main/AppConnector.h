@@ -95,4 +95,5 @@ class AppConnector
     bool getRunInOverlayOnlyMode() const;
 #endif
 };
-}
+
+} // namespace stellar

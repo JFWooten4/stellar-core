@@ -1990,4 +1990,4 @@ HerderSCPDriver::getNominationTimeouts(uint64_t slotIndex) const
     return std::nullopt;
 }
 
-}
+} // namespace stellar

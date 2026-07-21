@@ -98,4 +98,5 @@ FetchRecentQsetsWork::doWork()
 
     return State::WORK_SUCCESS;
 }
-}
+
+} // namespace stellar

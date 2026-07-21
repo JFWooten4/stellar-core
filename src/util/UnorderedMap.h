@@ -11,4 +11,5 @@ namespace stellar
 {
 template <class KeyT, class ValT, class Hasher = std::hash<KeyT>>
 using UnorderedMap = std::unordered_map<KeyT, ValT, RandHasher<KeyT, Hasher>>;
-}
+
+} // namespace stellar

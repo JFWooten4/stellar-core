@@ -329,4 +329,4 @@ makeSyntheticContractInstance(std::string const& salt);
 TxGenerator::SoroswapState makeSyntheticSoroswapState(uint32_t numTokens,
                                                       uint32_t numPairs);
 
-}
+} // namespace stellar

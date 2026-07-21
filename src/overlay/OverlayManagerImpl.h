@@ -224,4 +224,5 @@ class OverlayManagerImpl : public OverlayManager
     bool checkScheduledAndCache(
         std::shared_ptr<CapacityTrackedMessage> tracker) override;
 };
-}
+
+} // namespace stellar

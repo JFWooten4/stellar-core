@@ -785,4 +785,5 @@ operator!=(InternalLedgerEntry const& lhs, InternalLedgerEntry const& rhs)
 {
     return !(lhs == rhs);
 }
-}
+
+} // namespace stellar

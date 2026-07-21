@@ -169,4 +169,5 @@ class Tracker
     }
 #endif
 };
-}
+
+} // namespace stellar

@@ -978,4 +978,5 @@ class LedgerTxnRoot : public AbstractLedgerTxnParent
 #endif
     SessionWrapper& getSession() const override;
 };
-}
+
+} // namespace stellar

@@ -111,4 +111,5 @@ class CommandHandler
     }
 #endif
 };
-}
+
+} // namespace stellar

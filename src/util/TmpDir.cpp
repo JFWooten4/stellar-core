@@ -102,4 +102,5 @@ TmpDirManager::tmpDir(std::string const& prefix)
 {
     return TmpDir(mRoot + "/" + prefix);
 }
-}
+
+} // namespace stellar

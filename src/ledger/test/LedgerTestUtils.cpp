@@ -1085,4 +1085,5 @@ toUpgradeType(LedgerUpgrade const& upgrade)
     return result;
 }
 }
-}
+
+} // namespace stellar

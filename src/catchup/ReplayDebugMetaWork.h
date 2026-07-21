@@ -41,4 +41,5 @@ class ReplayDebugMetaWork : public Work
     BasicWork::State doWork() override;
     void doReset() override;
 };
-}
+
+} // namespace stellar

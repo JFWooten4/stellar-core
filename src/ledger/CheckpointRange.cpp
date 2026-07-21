@@ -85,4 +85,5 @@ operator!=(CheckpointRange const& x, CheckpointRange const& y)
 {
     return !(x == y);
 }
-}
+
+} // namespace stellar

@@ -68,4 +68,5 @@ class SurveyMessageLimiter
 
     Application& mApp;
 };
-}
+
+} // namespace stellar

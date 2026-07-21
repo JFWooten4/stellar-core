@@ -1445,4 +1445,5 @@ ClassicTransactionQueue::getMaxQueueSizeOps() const
     releaseAssert(res.size() == NUM_CLASSIC_TX_RESOURCES);
     return res.getVal(Resource::Type::OPERATIONS);
 }
-}
+
+} // namespace stellar

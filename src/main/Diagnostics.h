@@ -12,4 +12,5 @@ namespace diagnostics
 {
 void bucketStats(std::string const& filename, bool aggregateAccounts);
 }
-}
+
+} // namespace stellar

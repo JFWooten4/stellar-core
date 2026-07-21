@@ -644,4 +644,5 @@ TestAccount::liquidityPoolWithdraw(PoolID const& poolID, int64_t amount,
                                               minAmountB)}),
             mApp);
 }
-};
+
+} // namespace stellar

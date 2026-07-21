@@ -159,7 +159,7 @@ mergeOpInTx(std::vector<Operation> const& ops)
     }
     return false;
 }
-}
+} // namespace
 
 std::unique_ptr<LedgerManager>
 LedgerManager::create(Application& app)
@@ -2419,7 +2419,8 @@ LedgerManagerImpl::updateCanonicalStateForTesting(LedgerHeader const& header)
     mApp.getCommandHandler().addSnapshot(state);
 }
 #endif
-}
+
+} // namespace stellar
 
 std::vector<MutableTxResultPtr>
 LedgerManagerImpl::processFeesSeqNums(

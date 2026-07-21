@@ -141,4 +141,4 @@ TrustFlagsOpFrameBase::doApply(AppConnector& app, AbstractLedgerTxn& ltx,
     return true;
 }
 
-}
+} // namespace stellar

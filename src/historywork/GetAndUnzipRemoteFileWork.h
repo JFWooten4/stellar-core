@@ -42,4 +42,5 @@ class GetAndUnzipRemoteFileWork : public Work
     void onSuccess() override;
     State doWork() override;
 };
-}
+
+} // namespace stellar

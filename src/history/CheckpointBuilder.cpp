@@ -344,4 +344,5 @@ CheckpointBuilder::cleanup(uint32_t lcl)
 
     mStartupValidationComplete = true;
 }
-}
+
+} // namespace stellar

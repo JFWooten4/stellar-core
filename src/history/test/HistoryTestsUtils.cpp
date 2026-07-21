@@ -1449,4 +1449,5 @@ template std::string
 template std::string
     TestBucketGenerator::generateBucket<HotArchiveBucket>(TestBucketState);
 }
-}
+
+} // namespace stellar

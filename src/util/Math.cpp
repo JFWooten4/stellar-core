@@ -246,4 +246,5 @@ reinitializeAllGlobalStateForFuzzing(unsigned int seed)
     reinitializeAllGlobalStateWithSeed(seed);
 }
 #endif
-}
+
+} // namespace stellar

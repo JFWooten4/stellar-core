@@ -21,4 +21,5 @@ HotArchiveBucketList::addBatch(Application& app, uint32_t currLedger,
     addBatchInternal(app, currLedger, currLedgerProtocol, archiveEntries,
                      restoredEntries);
 }
-}
+
+} // namespace stellar

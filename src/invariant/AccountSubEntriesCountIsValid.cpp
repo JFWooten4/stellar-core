@@ -205,4 +205,5 @@ AccountSubEntriesCountIsValid::checkOnOperationApply(
     }
     return {};
 }
-}
+
+} // namespace stellar

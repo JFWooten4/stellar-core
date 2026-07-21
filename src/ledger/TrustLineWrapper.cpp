@@ -571,4 +571,5 @@ ConstTrustLineWrapper::IssuerImpl::getMaxAmountReceive(
 {
     return INT64_MAX;
 }
-}
+
+} // namespace stellar

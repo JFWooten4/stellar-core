@@ -313,4 +313,5 @@ TEST_CASE("TCPPeer drop at capacity", "[overlay][flowcontrol]")
 
     s->stopAllNodes();
 }
-}
+
+} // namespace stellar

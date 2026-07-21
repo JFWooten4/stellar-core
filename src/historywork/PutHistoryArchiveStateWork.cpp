@@ -96,4 +96,5 @@ PutHistoryArchiveStateWork::spawnPublishWork()
     auto wellKnownPut = addWork<WorkSequence>("put-history-well-known-sequence",
                                               seqWk, BasicWork::RETRY_NEVER);
 }
-}
+
+} // namespace stellar

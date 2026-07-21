@@ -144,4 +144,5 @@ class OperationFrame
     Memo const& getTxMemo() const;
     SorobanTransactionData::_ext_t const& getResourcesExt() const;
 };
-}
+
+} // namespace stellar

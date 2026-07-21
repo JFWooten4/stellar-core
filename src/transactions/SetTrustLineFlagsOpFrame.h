@@ -64,4 +64,5 @@ class SetTrustLineFlagsOpFrame : public TrustFlagsOpFrameBase
         return res.tr().setTrustLineFlagsResult().code();
     }
 };
-}
+
+} // namespace stellar

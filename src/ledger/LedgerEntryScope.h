@@ -203,7 +203,7 @@ enum class StaticLedgerEntryScope : uint16_t
 
 template <StaticLedgerEntryScope> class LedgerEntryScopeID;
 
-}
+} // namespace stellar
 
 template <stellar::StaticLedgerEntryScope T>
 std::ostream& operator<<(std::ostream& os,
@@ -445,4 +445,4 @@ FOREACH_STATIC_LEDGER_ENTRY_SCOPE(DECLARE_EXTERN_TEMPLATES)
 
 #undef DECLARE_EXTERN_TEMPLATES
 
-}
+} // namespace stellar

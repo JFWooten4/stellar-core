@@ -212,4 +212,5 @@ AppConnector::getRunInOverlayOnlyMode() const
     return mApp.getRunInOverlayOnlyMode();
 }
 #endif
-}
+
+} // namespace stellar

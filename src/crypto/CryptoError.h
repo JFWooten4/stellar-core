@@ -17,4 +17,5 @@ class CryptoError : public std::runtime_error
     {
     }
 };
-}
+
+} // namespace stellar

@@ -31,6 +31,7 @@ class PosixSpawnFileActions
 
     void initialize();
 };
-}
+
+} // namespace stellar
 
 #endif

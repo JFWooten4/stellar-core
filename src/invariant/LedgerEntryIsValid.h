@@ -61,4 +61,5 @@ class LedgerEntryIsValid : public Invariant
 
     AssetContractInfo const mLumenContractInfo;
 };
-}
+
+} // namespace stellar

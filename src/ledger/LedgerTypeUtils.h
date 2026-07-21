@@ -89,4 +89,5 @@ isPersistentEntry(T const& e)
 uint32_t ledgerEntrySizeForRent(LedgerEntry const& entry, uint32_t entryXdrSize,
                                 uint32_t ledgerVersion,
                                 SorobanNetworkConfig const& sorobanConfig);
-}
+
+} // namespace stellar

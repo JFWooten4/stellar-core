@@ -182,4 +182,5 @@ OverlayMetrics::OverlayMetrics(Application& app)
           app.getMetrics().NewHistogram({"overlay", "flood", "tx-batch-size"}))
 {
 }
-}
+
+} // namespace stellar

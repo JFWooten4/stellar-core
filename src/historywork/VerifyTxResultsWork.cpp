@@ -172,4 +172,5 @@ VerifyTxResultsWork::getCurrentTxResultSet(uint32_t ledger)
 
     return trs;
 }
-}
+
+} // namespace stellar

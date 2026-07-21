@@ -7,4 +7,5 @@
 namespace stellar
 {
 void printCurrentBacktrace();
-}
+
+} // namespace stellar

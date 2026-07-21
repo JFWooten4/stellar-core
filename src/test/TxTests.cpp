@@ -2184,4 +2184,5 @@ getGenesisAccount(Application& app, uint32_t accountIndex)
 }
 
 } // namespace txtest
+
 } // namespace stellar

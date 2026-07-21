@@ -1279,4 +1279,5 @@ reportTestTxMeta()
             hashes, nonempty, contexts));
     }
 }
-}
+
+} // namespace stellar

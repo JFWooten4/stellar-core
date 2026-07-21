@@ -54,7 +54,8 @@ format_as(MergeKey const& k)
     ss << k;
     return ss.str();
 }
-}
+
+} // namespace stellar
 
 namespace std
 {

@@ -77,4 +77,5 @@ DownloadVerifyTxResultsWork::yieldMoreWork()
     mCurrCheckpoint += HistoryManager::getCheckpointFrequency(mApp.getConfig());
     return w3;
 }
-}
+
+} // namespace stellar

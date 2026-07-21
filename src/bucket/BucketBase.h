@@ -204,4 +204,5 @@ class BucketBase : public NonMovableOrCopyable
 
     template <class T> friend class SearchableBucketListSnapshot;
 };
-}
+
+} // namespace stellar

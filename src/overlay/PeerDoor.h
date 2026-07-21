@@ -39,4 +39,5 @@ class PeerDoor
     void start();
     void close();
 };
-}
+
+} // namespace stellar

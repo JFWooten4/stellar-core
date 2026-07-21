@@ -72,4 +72,5 @@ HmacSha256Key hkdfExtract(ByteSlice const& bin);
 
 // Single-step HKDF-expand(key,bytes) == HMAC(key,bytes|0x1)
 HmacSha256Key hkdfExpand(HmacSha256Key const& key, ByteSlice const& bin);
-}
+
+} // namespace stellar

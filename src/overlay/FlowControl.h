@@ -223,4 +223,4 @@ class FlowControl
         LOCKS_EXCLUDED(mFlowControlMutex);
 };
 
-}
+} // namespace stellar

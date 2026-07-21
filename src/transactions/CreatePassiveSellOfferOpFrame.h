@@ -22,4 +22,5 @@ class CreatePassiveSellOfferOpFrame : public ManageSellOfferOpHolder,
     CreatePassiveSellOfferOpFrame(Operation const& op,
                                   TransactionFrame const& parentTx);
 };
-}
+
+} // namespace stellar

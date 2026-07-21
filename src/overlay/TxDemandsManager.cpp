@@ -373,4 +373,5 @@ TxDemandsManager::recvTxDemand(FloodDemand const& dmd, Peer::pointer peer)
     }
 #endif
 }
-}
+
+} // namespace stellar

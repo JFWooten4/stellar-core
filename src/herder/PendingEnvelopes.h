@@ -237,4 +237,5 @@ class PendingEnvelopes
     Json::Value getJsonValidatorCost(bool summary, bool fullKeys,
                                      uint64 index) const;
 };
-}
+
+} // namespace stellar

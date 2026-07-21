@@ -352,4 +352,5 @@ BucketTestApplication::getLedgerManager()
     return static_cast<LedgerManagerForBucketTests&>(lm);
 }
 }
-}
+
+} // namespace stellar

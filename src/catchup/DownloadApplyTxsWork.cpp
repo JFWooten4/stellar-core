@@ -265,4 +265,5 @@ DownloadApplyTxsWork::getStatus() const
         totalCheckpoints - checkpointsApplied,
         100 * checkpointsApplied / totalCheckpoints);
 }
-}
+
+} // namespace stellar

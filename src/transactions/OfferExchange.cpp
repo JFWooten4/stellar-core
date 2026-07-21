@@ -1769,4 +1769,5 @@ convertWithOffersAndPools(
     maxOffersToCross -= 1;
     return ConvertResult::eOK;
 }
-}
+
+} // namespace stellar

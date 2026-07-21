@@ -217,4 +217,5 @@ class OverlayManager
     // is responsible for updating the snapshot as needed.
     virtual ImmutableLedgerView& getOverlayThreadSnapshot() = 0;
 };
-}
+
+} // namespace stellar

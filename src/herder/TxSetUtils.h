@@ -60,4 +60,5 @@ class TxSetUtils
                 uint64_t lowerBoundCloseTimeOffset,
                 uint64_t upperBoundCloseTimeOffset, TxFrameList& invalidTxs);
 }; // class TxSetUtils
+
 } // namespace stellar

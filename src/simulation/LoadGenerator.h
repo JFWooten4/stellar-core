@@ -413,4 +413,5 @@ class LoadGenerator
     std::pair<TxGenerator::TestAccountPtr, TransactionFrameBaseConstPtr>
     readTransactionFromFile(GeneratedLoadConfig const& cfg);
 };
-}
+
+} // namespace stellar

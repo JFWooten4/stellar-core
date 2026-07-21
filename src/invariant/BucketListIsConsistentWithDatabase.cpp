@@ -319,4 +319,5 @@ BucketListIsConsistentWithDatabase::checkOnBucketApply(
     auto range = LedgerRange::inclusive(oldestLedger, newestLedger);
     return checkDbEntryCounts(mApp, range, offerCount);
 }
-}
+
+} // namespace stellar

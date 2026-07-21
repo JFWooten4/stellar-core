@@ -207,4 +207,5 @@ class TransactionTestFrame : public TransactionFrameBase
     void overrideResultXDR(TransactionResult const& resultXDR);
     void overrideResultFeeCharged(int64_t feeCharged);
 };
-}
+
+} // namespace stellar

@@ -181,4 +181,4 @@ SCPDriver::getNodeWeight(NodeID const& nodeID, SCPQuorumSet const& qset,
     return 0;
 }
 
-}
+} // namespace stellar

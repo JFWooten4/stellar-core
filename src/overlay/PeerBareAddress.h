@@ -68,4 +68,5 @@ class PeerBareAddress
     unsigned short mPort;
     std::string mStringValue;
 };
-}
+
+} // namespace stellar

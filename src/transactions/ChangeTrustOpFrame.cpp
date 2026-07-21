@@ -366,4 +366,5 @@ ChangeTrustOpFrame::doesAccessFrozenKey(
     }
     return false;
 }
-}
+
+} // namespace stellar

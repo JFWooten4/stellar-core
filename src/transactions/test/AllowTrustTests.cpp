@@ -757,4 +757,5 @@ TEST_CASE_VERSIONS("allow trust", "[tx][allowtrust]")
 
 }
 }
-}
+
+} // namespace stellar

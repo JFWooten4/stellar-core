@@ -94,4 +94,5 @@ class QuorumIntersectionChecker
     {
     };
 };
-}
+
+} // namespace stellar

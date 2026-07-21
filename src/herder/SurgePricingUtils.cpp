@@ -707,4 +707,5 @@ SorobanGenericLaneConfig::getTxResources(TransactionFrameBase const& tx,
     releaseAssert(tx.isSoroban());
     return tx.getResources(/* useByteLimitInClassic */ false, ledgerVersion);
 }
+
 } // namespace stellar

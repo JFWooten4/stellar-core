@@ -412,4 +412,5 @@ BucketListStateConsistency::getName() const
 {
     return "BucketListStateConsistency";
 }
-}
+
+} // namespace stellar

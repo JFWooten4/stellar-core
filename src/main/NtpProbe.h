@@ -62,4 +62,5 @@ class NtpProbe : public std::enable_shared_from_this<NtpProbe>
 
     std::atomic<bool> mShutdown{false};
 };
-}
+
+} // namespace stellar

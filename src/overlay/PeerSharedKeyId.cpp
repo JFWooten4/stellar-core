@@ -18,7 +18,8 @@ operator!=(PeerSharedKeyId const& x, PeerSharedKeyId const& y)
 {
     return !(x == y);
 }
-}
+
+} // namespace stellar
 
 namespace std
 {

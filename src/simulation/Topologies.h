@@ -88,4 +88,5 @@ class Topologies
                Simulation::ConfigGen confGen = nullptr, int connections = 1,
                Simulation::QuorumSetAdjuster qSetAdjust = nullptr);
 };
-}
+
+} // namespace stellar

@@ -48,4 +48,5 @@ class CreateClaimableBalanceOpFrame : public OperationFrame
         return res.tr().createClaimableBalanceResult().code();
     }
 };
-}
+
+} // namespace stellar

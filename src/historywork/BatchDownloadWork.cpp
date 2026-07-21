@@ -73,4 +73,5 @@ BatchDownloadWork::resetIter()
 {
     mNext = mRange.mFirst;
 }
-}
+
+} // namespace stellar

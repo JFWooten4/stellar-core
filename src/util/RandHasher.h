@@ -27,4 +27,5 @@ template <class T, class Hasher = std::hash<T>> class RandHasher
         return Hasher()(t) ^ randHash::gMixer;
     }
 };
-}
+
+} // namespace stellar

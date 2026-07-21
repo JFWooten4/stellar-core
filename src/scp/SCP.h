@@ -180,4 +180,5 @@ class SCP
 
     friend class TestSCP;
 };
-}
+
+} // namespace stellar

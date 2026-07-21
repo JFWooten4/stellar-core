@@ -33,4 +33,5 @@ class Fuzzer
     virtual void genFuzz(std::string const& filename) = 0;
     virtual int xdrSizeLimit() = 0;
 };
-}
+
+} // namespace stellar

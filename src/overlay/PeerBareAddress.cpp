@@ -186,4 +186,5 @@ operator<(PeerBareAddress const& x, PeerBareAddress const& y)
 
     return x.mIP < y.mIP;
 }
-}
+
+} // namespace stellar

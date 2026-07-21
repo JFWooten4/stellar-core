@@ -23,4 +23,5 @@ class GzipFileWork : public RunCommandWork
   protected:
     void onReset() override;
 };
-}
+
+} // namespace stellar

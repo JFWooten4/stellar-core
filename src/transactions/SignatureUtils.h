@@ -37,4 +37,5 @@ getSignedPayloadHint(SignerKey::_ed25519SignedPayload_t const& signedPayload);
 SignatureHint getHint(ByteSlice const& bs);
 bool doesHintMatch(ByteSlice const& bs, SignatureHint const& hint);
 }
-}
+
+} // namespace stellar

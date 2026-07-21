@@ -1724,4 +1724,5 @@ ApplicationImpl::getProtocol23CorruptionEventReconciler()
 {
     return mProtocol23CorruptionEventReconciler;
 }
-}
+
+} // namespace stellar

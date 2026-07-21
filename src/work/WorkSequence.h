@@ -36,4 +36,5 @@ class WorkSequence : public BasicWork
     bool onAbort() final;
     void onReset() final;
 };
-}
+
+} // namespace stellar

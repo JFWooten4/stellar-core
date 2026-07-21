@@ -130,4 +130,5 @@ convertKey(F const& fromKey)
     return toKey;
 }
 }
-}
+
+} // namespace stellar

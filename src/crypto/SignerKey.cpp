@@ -158,4 +158,4 @@ KeyFunctions<SignerKey>::setKeyValue(SignerKey& key,
     }
 }
 
-}
+} // namespace stellar

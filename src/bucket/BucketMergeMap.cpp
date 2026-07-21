@@ -129,4 +129,5 @@ BucketMergeMap::getOutputsUsingInput(Hash const& input,
                    hexAbbrev(i->second), hexAbbrev(input));
     }
 }
-}
+
+} // namespace stellar

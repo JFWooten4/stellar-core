@@ -463,4 +463,5 @@ ApplyCheckpointWork::onFailureRaise()
         mOnFailure();
     }
 }
-}
+
+} // namespace stellar

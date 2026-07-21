@@ -1883,4 +1883,5 @@ template medida::Meter&
 BucketManager::getBloomMissMeter<HotArchiveBucket>() const;
 template medida::Meter&
 BucketManager::getBloomLookupMeter<HotArchiveBucket>() const;
-}
+
+} // namespace stellar

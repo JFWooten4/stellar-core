@@ -60,4 +60,5 @@ class RevokeSponsorshipOpFrame : public OperationFrame
         return res.tr().revokeSponsorshipResult().code();
     }
 };
-}
+
+} // namespace stellar

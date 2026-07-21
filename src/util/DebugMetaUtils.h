@@ -46,4 +46,5 @@ size_t getNumberOfDebugFilesToKeep(uint32_t ledgersToKeep);
 
 std::regex getDebugMetaRegexForLedger(uint32_t ledgerSeq);
 }
-}
+
+} // namespace stellar

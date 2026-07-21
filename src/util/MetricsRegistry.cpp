@@ -25,4 +25,5 @@ MetricsRegistry::syncSimpleTimerStats()
         timer.second.syncMax();
     }
 }
-}
+
+} // namespace stellar

@@ -135,4 +135,5 @@ PeerAuth::getReceivingMacKey(Curve25519Public const& remotePublic,
     auto k = getSharedKey(remotePublic, role);
     return hkdfExpand(k, buf);
 }
-}
+
+} // namespace stellar

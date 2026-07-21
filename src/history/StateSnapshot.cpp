@@ -143,4 +143,5 @@ StateSnapshot::differingHASFiles(HistoryArchiveState const& other)
 
     return files;
 }
-}
+
+} // namespace stellar

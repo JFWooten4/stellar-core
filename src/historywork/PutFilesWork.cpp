@@ -59,4 +59,5 @@ PutFilesWork::doReset()
 {
     mChildrenSpawned = false;
 }
-}
+
+} // namespace stellar

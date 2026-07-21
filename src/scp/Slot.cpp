@@ -491,4 +491,5 @@ Slot::maybeSetGotVBlocking()
         CLOG_TRACE(SCP, "Got v-blocking for {}", mSlotIndex);
     }
 }
-}
+
+} // namespace stellar

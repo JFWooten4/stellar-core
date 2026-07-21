@@ -198,4 +198,5 @@ Floodgate::forgetRecord(Hash const& h)
 {
     mFloodMap.erase(h);
 }
-}
+
+} // namespace stellar

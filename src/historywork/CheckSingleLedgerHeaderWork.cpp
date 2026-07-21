@@ -168,4 +168,4 @@ CheckSingleLedgerHeaderWork::doWork()
     return State::WORK_FAILURE;
 }
 
-}
+} // namespace stellar

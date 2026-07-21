@@ -171,4 +171,5 @@ LiveBucketList::checkIfEvictionScanIsStuck(EvictionIterator const& evictionIter,
         metrics.incompleteBucketScan.inc();
     }
 }
-}
+
+} // namespace stellar

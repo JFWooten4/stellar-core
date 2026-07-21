@@ -44,4 +44,5 @@ class CreateAccountOpFrame : public OperationFrame
         return res.tr().createAccountResult().code();
     }
 };
-}
+
+} // namespace stellar

@@ -396,4 +396,5 @@ class HerderImpl : public Herder
     UnorderedSet<LedgerKey>
     recomputeKeysToFilter(uint32_t protocolVersion) const;
 };
-}
+
+} // namespace stellar

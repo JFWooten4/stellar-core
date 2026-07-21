@@ -636,4 +636,5 @@ class LedgerManagerImpl : public LedgerManager
     friend class BucketTestUtils::LedgerManagerForBucketTests;
 #endif
 };
-}
+
+} // namespace stellar

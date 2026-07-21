@@ -567,4 +567,5 @@ class CapacityTrackedMessage : private NonMovableOrCopyable
         return mTxsMap;
     }
 };
-}
+
+} // namespace stellar

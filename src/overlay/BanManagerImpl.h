@@ -26,4 +26,5 @@ class BanManagerImpl : public BanManager
     bool isBanned(NodeID nodeID) override;
     std::vector<std::string> getBans() override;
 };
-}
+
+} // namespace stellar

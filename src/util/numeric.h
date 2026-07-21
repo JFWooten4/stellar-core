@@ -111,4 +111,5 @@ saturatingAdd(T a, T b)
         return a + b;
     }
 }
-}
+
+} // namespace stellar

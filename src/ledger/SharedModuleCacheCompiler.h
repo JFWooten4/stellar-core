@@ -64,4 +64,5 @@ class SharedModuleCacheCompiler : NonMovableOrCopyable
     std::chrono::nanoseconds getCompileTime();
     size_t getContractsCompiled();
 };
-}
+
+} // namespace stellar

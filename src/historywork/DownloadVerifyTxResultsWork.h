@@ -36,4 +36,5 @@ class DownloadVerifyTxResultsWork : public BatchWork
     std::shared_ptr<BasicWork> yieldMoreWork() override;
     void resetIter() override;
 };
-}
+
+} // namespace stellar

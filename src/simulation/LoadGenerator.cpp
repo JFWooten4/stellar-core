@@ -1984,4 +1984,5 @@ LoadGenerator::readTransactionFromFile(GeneratedLoadConfig const& cfg)
     // Do not provide an account
     return std::make_pair(nullptr, txFrame);
 }
-}
+
+} // namespace stellar

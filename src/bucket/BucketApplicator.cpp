@@ -311,4 +311,5 @@ BucketApplicator::Counters::mark(BucketEntry const& e)
         ++iter->second.numDeleted;
     }
 }
-}
+
+} // namespace stellar

@@ -18,4 +18,5 @@ operator!=(SecretValue const& x, SecretValue const& y)
 {
     return !(x == y);
 }
-}
+
+} // namespace stellar

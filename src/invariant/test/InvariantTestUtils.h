@@ -44,4 +44,5 @@ void normalizeSigners(AccountEntry& acc);
 
 int64_t getMinBalance(Application& app, AccountEntry const& acc);
 }
-}
+
+} // namespace stellar

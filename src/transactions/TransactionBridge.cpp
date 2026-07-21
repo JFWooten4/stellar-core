@@ -205,4 +205,5 @@ setMaxTime(std::shared_ptr<TransactionTestFrame const> tx, TimePoint maxTime)
 }
 #endif
 }
-}
+
+} // namespace stellar

@@ -64,4 +64,5 @@ class PathPaymentStrictSendOpFrame : public PathPaymentOpFrameBase
         return res.tr().pathPaymentStrictSendResult().code();
     }
 };
-}
+
+} // namespace stellar

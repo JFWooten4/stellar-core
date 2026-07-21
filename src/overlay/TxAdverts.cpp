@@ -213,4 +213,4 @@ TxAdverts::getMaxAdvertSize() const
     return std::clamp<size_t>(res, 1, TX_ADVERT_VECTOR_MAX_SIZE);
 }
 
-}
+} // namespace stellar

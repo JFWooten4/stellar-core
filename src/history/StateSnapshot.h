@@ -32,4 +32,5 @@ struct StateSnapshot : public std::enable_shared_from_this<StateSnapshot>
     std::vector<std::shared_ptr<FileTransferInfo>>
     differingHASFiles(HistoryArchiveState const& other);
 };
-}
+
+} // namespace stellar

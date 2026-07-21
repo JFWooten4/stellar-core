@@ -23,4 +23,5 @@ class HerderPersistenceImpl : public HerderPersistence
   private:
     Application& mApp;
 };
-}
+
+} // namespace stellar

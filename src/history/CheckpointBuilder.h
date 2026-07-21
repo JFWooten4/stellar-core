@@ -91,4 +91,5 @@ class CheckpointBuilder
         return mSkipFirstCheckpointSinceItIsIncomplete;
     }
 };
-}
+
+} // namespace stellar

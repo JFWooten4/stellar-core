@@ -2223,4 +2223,4 @@ Peer::popAdvert()
     return mTxAdverts->popIncomingAdvert();
 }
 
-}
+} // namespace stellar

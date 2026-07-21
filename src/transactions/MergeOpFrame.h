@@ -48,4 +48,5 @@ class MergeOpFrame : public OperationFrame
         return res.tr().accountMergeResult().code();
     }
 };
-}
+
+} // namespace stellar

@@ -102,4 +102,5 @@ template std::shared_ptr<typename HotArchiveBucket::IndexT const>
 loadIndex<HotArchiveBucket>(BucketManager const& bm,
                             std::filesystem::path const& filename,
                             std::size_t fileSize);
-}
+
+} // namespace stellar

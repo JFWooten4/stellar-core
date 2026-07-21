@@ -709,4 +709,4 @@ HistoryManagerImpl::getConfig() const
     return mApp.getConfig();
 }
 
-}
+} // namespace stellar

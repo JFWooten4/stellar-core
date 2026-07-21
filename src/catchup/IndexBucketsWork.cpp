@@ -188,4 +188,5 @@ IndexBucketsWork<BucketT>::spawnWork()
 
 template class IndexBucketsWork<LiveBucket>;
 template class IndexBucketsWork<HotArchiveBucket>;
-}
+
+} // namespace stellar

@@ -373,5 +373,6 @@ TEST_CASE("OrderBookIsNotCrossed properly throws if order book is crossed",
         applyCheck(*app, {}, {offer3, offer5}, true);
     }
 }
-}
+
+} // namespace stellar
 #endif // BUILD_TESTS

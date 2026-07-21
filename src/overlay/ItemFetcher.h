@@ -114,4 +114,5 @@ class ItemFetcher : private NonMovableOrCopyable
   private:
     AskPeer mAskPeer;
 };
-}
+
+} // namespace stellar

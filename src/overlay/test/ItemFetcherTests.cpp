@@ -484,4 +484,5 @@ TEST_CASE("next peer strategy", "[overlay][ItemFetcher]")
         }
     }
 }
-}
+
+} // namespace stellar

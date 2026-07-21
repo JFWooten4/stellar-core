@@ -870,4 +870,5 @@ TCPPeer::drop(std::string const& reason, DropDirection dropDirection)
         mAppConnector.postOnMainThread(mainThreadDrop, "TCPPeer::drop");
     }
 }
-}
+
+} // namespace stellar

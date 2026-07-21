@@ -26,4 +26,5 @@ std::string resolve(std::string const& configValue);
 bool isExternalSecret(std::string const& configValue);
 
 } // namespace secretmanager
+
 } // namespace stellar

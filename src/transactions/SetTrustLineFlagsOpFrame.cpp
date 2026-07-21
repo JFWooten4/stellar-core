@@ -227,4 +227,4 @@ SetTrustLineFlagsOpFrame::doesAccessFrozenKey(
         trustlineKey(mSetTrustLineFlags.trustor, mSetTrustLineFlags.asset));
 }
 
-}
+} // namespace stellar

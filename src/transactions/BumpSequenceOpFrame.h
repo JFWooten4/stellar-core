@@ -41,4 +41,5 @@ class BumpSequenceOpFrame : public OperationFrame
         return res.tr().bumpSeqResult().code();
     }
 };
-}
+
+} // namespace stellar

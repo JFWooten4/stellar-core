@@ -333,4 +333,5 @@ SetOptionsOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

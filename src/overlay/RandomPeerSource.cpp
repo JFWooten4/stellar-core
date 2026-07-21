@@ -86,4 +86,5 @@ RandomPeerSource::getRandomPeers(
     mPeerCache.erase(std::begin(mPeerCache), it);
     return result;
 }
-}
+
+} // namespace stellar

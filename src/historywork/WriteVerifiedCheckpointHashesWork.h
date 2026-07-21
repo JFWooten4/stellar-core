@@ -94,4 +94,5 @@ class WriteVerifiedCheckpointHashesWork : public BatchWork
     std::optional<LedgerNumHashPair> mLatestTrustedHashPair;
     std::optional<uint32_t> const mFromLedger;
 };
-}
+
+} // namespace stellar

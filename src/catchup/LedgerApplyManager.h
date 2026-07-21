@@ -125,4 +125,5 @@ class LedgerApplyManager
     virtual void txSetsApplied(uint32_t num = 1) = 0;
     virtual void fileDownloaded(FileType type, uint32_t num = 1) = 0;
 };
-}
+
+} // namespace stellar

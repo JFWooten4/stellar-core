@@ -30,7 +30,8 @@ struct MergeKey
 std::ostream& operator<<(std::ostream& out, MergeKey const& b);
 
 std::string format_as(MergeKey const& k);
-}
+
+} // namespace stellar
 
 namespace std
 {

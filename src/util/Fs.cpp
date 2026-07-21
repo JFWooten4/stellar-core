@@ -521,4 +521,5 @@ removeWithLog(std::string const& path, bool ignoreEnoent)
 }
 
 }
-}
+
+} // namespace stellar

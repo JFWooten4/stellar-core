@@ -129,4 +129,5 @@ hkdfExpand(HmacSha256Key const& key, ByteSlice const& bin)
     out.key = mac.mac;
     return out;
 }
-}
+
+} // namespace stellar

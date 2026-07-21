@@ -379,4 +379,5 @@ class ParallelLedgerAccessHelper : virtual public LedgerAccessHelper
     uint32_t getLedgerVersion() override;
     uint32_t getLedgerSeq() override;
 };
-}
+
+} // namespace stellar

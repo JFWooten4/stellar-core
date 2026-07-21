@@ -58,4 +58,5 @@ class StatusManager
   private:
     storage mStatusMessages;
 };
-}
+
+} // namespace stellar

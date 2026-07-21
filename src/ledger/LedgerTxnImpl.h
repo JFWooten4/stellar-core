@@ -871,4 +871,5 @@ marshalToPGArray(PGconn* conn, std::string& out, std::vector<T> const& v,
     out = oss.str();
 }
 #endif
-}
+
+} // namespace stellar

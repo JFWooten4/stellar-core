@@ -49,4 +49,5 @@ void tooManySponsoring(Application& app, TestAccount& successfulOpAcc,
 
 void tooManySubentries(Application& app, TestAccount& testAcc,
                        Operation const& opCreate1, Operation const& opCreate2);
-}
+
+} // namespace stellar

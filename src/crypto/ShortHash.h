@@ -54,4 +54,5 @@ xdrComputeHash(T const& t)
     return xsh.state.digest();
 }
 }
-}
+
+} // namespace stellar

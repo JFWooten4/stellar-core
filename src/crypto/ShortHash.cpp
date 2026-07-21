@@ -84,4 +84,5 @@ XDRShortHasher::hashBytes(unsigned char const* bytes, size_t len)
     state.update(bytes, len);
 }
 }
-}
+
+} // namespace stellar

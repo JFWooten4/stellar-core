@@ -67,4 +67,5 @@ class WorkScheduler : public Work
     static void scheduleOne(std::weak_ptr<WorkScheduler> weak);
     State doWork() override;
 };
-}
+
+} // namespace stellar

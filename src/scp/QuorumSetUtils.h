@@ -16,4 +16,5 @@ bool isQuorumSetSane(SCPQuorumSet const& qSet, bool extraChecks,
 
 // normalize the quorum set, optionally removing idToRemove
 void normalizeQSet(SCPQuorumSet& qSet, NodeID const* idToRemove = nullptr);
-}
+
+} // namespace stellar

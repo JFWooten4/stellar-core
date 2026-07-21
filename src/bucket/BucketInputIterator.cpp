@@ -175,4 +175,5 @@ BucketInputIterator<BucketT>::seek(std::streamoff offset)
 
 template class BucketInputIterator<LiveBucket>;
 template class BucketInputIterator<HotArchiveBucket>;
-}
+
+} // namespace stellar

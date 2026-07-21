@@ -28,4 +28,5 @@ PutRemoteFileWork::getCommand()
     auto cmdLine = mArchive->putFileCmd(mLocal, mRemote);
     return CommandInfo{cmdLine, std::string()};
 }
-}
+
+} // namespace stellar

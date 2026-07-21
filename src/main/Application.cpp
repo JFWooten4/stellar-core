@@ -45,4 +45,5 @@ Application::create(VirtualClock& clock, Config const& cfg, bool newDB,
 {
     return create<ApplicationImpl>(clock, cfg, newDB, forceRebuild);
 }
-}
+
+} // namespace stellar

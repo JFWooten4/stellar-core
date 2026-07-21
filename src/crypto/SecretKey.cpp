@@ -653,7 +653,8 @@ HashUtils::pseudoRandomForTesting()
     return res;
 }
 #endif
-}
+
+} // namespace stellar
 
 namespace std
 {

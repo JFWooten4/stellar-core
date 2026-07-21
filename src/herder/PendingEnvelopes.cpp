@@ -1125,4 +1125,5 @@ PendingEnvelopes::getJsonValidatorCost(bool summary, bool fullKeys,
     }
     return res;
 }
-}
+
+} // namespace stellar

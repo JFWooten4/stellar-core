@@ -526,4 +526,5 @@ FutureBucket<BucketT>::getHashes() const
 
 template class FutureBucket<LiveBucket>;
 template class FutureBucket<HotArchiveBucket>;
-}
+
+} // namespace stellar

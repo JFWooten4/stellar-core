@@ -70,4 +70,5 @@ class PathPaymentOpFrameBase : public OperationFrame
     virtual void setResultOfferCrossSelf(OperationResult& res) const = 0;
     virtual void setResultConstraintNotMet(OperationResult& res) const = 0;
 };
-}
+
+} // namespace stellar

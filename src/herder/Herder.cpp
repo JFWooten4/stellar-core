@@ -24,4 +24,5 @@ std::chrono::minutes const Herder::CHECK_FOR_DEAD_NODES_MINUTES(15);
 uint32 const Herder::FLOW_CONTROL_BYTES_EXTRA_BUFFER(2000);
 
 Hash const Herder::EMPTY_TX_SET_HASH{};
-}
+
+} // namespace stellar

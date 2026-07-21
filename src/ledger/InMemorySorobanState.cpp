@@ -692,4 +692,5 @@ InMemorySorobanState::clearForTesting()
     mContractDataStateSize = 0;
 }
 #endif
-}
+
+} // namespace stellar

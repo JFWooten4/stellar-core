@@ -30,4 +30,5 @@ MakeRemoteDirWork::getCommand()
     }
     return CommandInfo{cmdLine, std::string()};
 }
-}
+
+} // namespace stellar

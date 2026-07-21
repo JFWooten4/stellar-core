@@ -953,4 +953,5 @@ QuorumIntersectionChecker::getIntersectionCriticalGroups(
     }
     return critical;
 }
-}
+
+} // namespace stellar

@@ -615,4 +615,5 @@ tooManySubentries(Application& app, TestAccount& testAcc,
         }
     }
 }
-}
+
+} // namespace stellar

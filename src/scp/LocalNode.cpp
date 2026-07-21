@@ -451,4 +451,5 @@ LocalNode::isValidator()
 {
     return mIsValidator;
 }
-}
+
+} // namespace stellar

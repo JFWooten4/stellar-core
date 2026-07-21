@@ -612,4 +612,5 @@ LedgerEntryIsValid::checkIsValid(TTLEntry const& te,
 
     return {};
 }
-}
+
+} // namespace stellar

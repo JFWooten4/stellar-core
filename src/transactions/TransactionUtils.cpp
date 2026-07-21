@@ -2364,4 +2364,5 @@ createEntryRentChangeWithoutModification(
 
     return rustChange;
 }
+
 } // namespace stellar

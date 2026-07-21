@@ -2390,4 +2390,5 @@ AuthTestTreeNode::toAuthorizedInvocation() const
 }
 
 } // namespace txtest
+
 } // namespace stellar

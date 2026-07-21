@@ -909,4 +909,5 @@ removeSignerWithPossibleSponsorship(
         removeSignerWithoutSponsorship(signerIt, acc.current());
     }
 }
-}
+
+} // namespace stellar

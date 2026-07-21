@@ -25,4 +25,5 @@ struct NonMovableOrCopyable : private NonCopyable, NonMovable
 {
     NonMovableOrCopyable() = default;
 };
-}
+
+} // namespace stellar

@@ -226,4 +226,4 @@ FlowControlCapacity::msgBodySize(StellarMessage const& msg)
     return static_cast<uint64_t>(xdr::xdr_size(msg));
 }
 
-}
+} // namespace stellar

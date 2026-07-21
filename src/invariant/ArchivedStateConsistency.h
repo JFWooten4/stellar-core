@@ -41,4 +41,5 @@ class ArchivedStateConsistency : public Invariant
         UnorderedMap<LedgerKey, LedgerEntry> const& restoredFromLiveState)
         override;
 };
-}
+
+} // namespace stellar

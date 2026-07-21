@@ -39,6 +39,7 @@ namespace historytestutils
 {
 struct CatchupPerformedWork;
 } // namespace historytestutils
+
 } // namespace stellar
 
 namespace Catch

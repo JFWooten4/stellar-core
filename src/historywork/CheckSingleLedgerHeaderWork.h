@@ -40,4 +40,5 @@ class CheckSingleLedgerHeaderWork : public Work
     medida::Meter& mCheckSuccess;
     medida::Meter& mCheckFailed;
 };
-}
+
+} // namespace stellar

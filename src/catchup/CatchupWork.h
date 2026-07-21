@@ -129,4 +129,5 @@ class CatchupWork : public Work
     std::optional<HistoryArchiveState> mHAS;
     std::optional<HistoryArchiveState> mBucketHAS;
 };
-}
+
+} // namespace stellar

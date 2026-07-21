@@ -195,4 +195,5 @@ class TestAccount
 
     void updateSequenceNumber();
 };
-}
+
+} // namespace stellar

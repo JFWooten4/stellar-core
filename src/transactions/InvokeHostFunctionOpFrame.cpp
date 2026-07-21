@@ -1356,4 +1356,5 @@ InvokeHostFunctionOpFrame::doesAccessFrozenKey(
     // say that the operation itself doesn't access frozen keys.
     return false;
 }
-}
+
+} // namespace stellar

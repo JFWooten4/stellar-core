@@ -351,4 +351,5 @@ operator==(Price const& a, Price const& b)
 {
     return (a.n == b.n) && (a.d == b.d);
 }
-}
+
+} // namespace stellar

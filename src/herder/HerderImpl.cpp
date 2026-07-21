@@ -2979,4 +2979,5 @@ HerderImpl::getTx(Hash const& hash) const
     }
     return classic;
 }
-}
+
+} // namespace stellar

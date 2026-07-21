@@ -88,4 +88,5 @@ WorkScheduler::shutdown()
         std::static_pointer_cast<WorkScheduler>(shared_from_this()));
     scheduleOne(weak);
 }
-}
+
+} // namespace stellar

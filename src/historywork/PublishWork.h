@@ -27,4 +27,5 @@ class PublishWork : public WorkSequence
     void onFailureRaise() override;
     void onSuccess() override;
 };
-}
+
+} // namespace stellar

@@ -122,7 +122,8 @@ std::vector<std::pair<uint32_t, CatchupConfiguration>> gCatchupRangeCases{
     {64, {320, 319, CatchupConfiguration::Mode::OFFLINE_BASIC}},
     {64, {320, 320, CatchupConfiguration::Mode::OFFLINE_BASIC}},
     {64, {320, maxCount, CatchupConfiguration::Mode::OFFLINE_BASIC}}};
-}
+
+} // namespace stellar
 
 TEST_CASE("compute CatchupRange from CatchupConfiguration", "[catchup]")
 {

@@ -123,4 +123,5 @@ BanManager::maybeDropAndCreateNew(SessionWrapper& sess)
                       "nodeid      CHARACTER(56) NOT NULL PRIMARY KEY"
                       ")";
 }
-}
+
+} // namespace stellar

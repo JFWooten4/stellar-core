@@ -56,4 +56,5 @@ class GetHistoryArchiveStateWork : public Work
     void doReset() override;
     void onSuccess() override;
 };
-}
+
+} // namespace stellar

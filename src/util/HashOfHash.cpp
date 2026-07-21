@@ -26,4 +26,5 @@ FullHash256::operator()(uint256 const& x) const noexcept
 {
     return shortHash::computeHash(stellar::ByteSlice(x.data(), 32));
 }
-}
+
+} // namespace stellar

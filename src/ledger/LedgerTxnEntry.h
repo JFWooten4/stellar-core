@@ -114,4 +114,5 @@ toEntryImplBase(std::shared_ptr<LedgerTxnEntry::Impl> const& impl);
 
 std::shared_ptr<EntryImplBase>
 toEntryImplBase(std::shared_ptr<ConstLedgerTxnEntry::Impl> const& impl);
-}
+
+} // namespace stellar

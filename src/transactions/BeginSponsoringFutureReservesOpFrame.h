@@ -42,4 +42,5 @@ class BeginSponsoringFutureReservesOpFrame : public OperationFrame
         return res.tr().beginSponsoringFutureReservesResult().code();
     }
 };
-}
+
+} // namespace stellar

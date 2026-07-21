@@ -113,4 +113,5 @@ class VerifyLedgerChainWork : public BasicWork
         return true;
     };
 };
-}
+
+} // namespace stellar

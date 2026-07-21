@@ -179,4 +179,4 @@ class TxEventManager
     bool mFinalized = false;
 };
 
-}
+} // namespace stellar

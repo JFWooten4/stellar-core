@@ -30,4 +30,5 @@ template <> struct KeyFunctions<SignerKey>
     static std::vector<uint8_t> getKeyValue(SignerKey const& key);
     static void setKeyValue(SignerKey& key, std::vector<uint8_t> const& data);
 };
-}
+
+} // namespace stellar

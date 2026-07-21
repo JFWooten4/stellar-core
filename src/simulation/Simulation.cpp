@@ -841,4 +841,5 @@ LoopbackOverlayManager::connectToImpl(PeerBareAddress const& address,
         return false;
     }
 }
-}
+
+} // namespace stellar

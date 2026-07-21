@@ -403,4 +403,4 @@ ExtendFootprintTTLOpFrame::doesAccessFrozenKey(
     return false;
 }
 
-}
+} // namespace stellar

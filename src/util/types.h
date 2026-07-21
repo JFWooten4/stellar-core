@@ -211,4 +211,4 @@ toAsciiLower(char c)
     return c;
 }
 
-}
+} // namespace stellar

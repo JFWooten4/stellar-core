@@ -36,4 +36,5 @@ std::string getHeaderDataForHash(Database& db, Hash const& hash);
 
 void maybeDropAndCreateNew(Database& db);
 }
-}
+
+} // namespace stellar
