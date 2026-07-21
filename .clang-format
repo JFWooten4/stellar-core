@@ -115,3 +115,7 @@ TabWidth:        8
 UseTab:          Never
 UseCRLF: false
 ...
+
+need to defer rm this to https://github.com/stellar/stellar-core/pull/1817/changes/b1fce524c819cfe5e241e9ee98155803a8e42724
+
+recmy aand justif in PR with https://github.com/stellar/stellar-core/blob/0c8f7dca41573fa701c0b515e97aba6935243279/src/transactions/EventManager.cpp#L640-L642
