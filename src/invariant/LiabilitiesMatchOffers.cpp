@@ -386,4 +386,5 @@ LiabilitiesMatchOffers::checkOnOperationApply(
     }
     return {};
 }
-}
+
+} // namespace stellar

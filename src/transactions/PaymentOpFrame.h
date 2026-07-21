@@ -43,4 +43,5 @@ class PaymentOpFrame : public OperationFrame
         return res.tr().paymentResult().code();
     }
 };
-}
+
+} // namespace stellar

@@ -51,4 +51,5 @@ ed25519PayloadKey(uint256 const& ed25519, xdr::opaque_vec<64> const& payload)
     return sk;
 }
 }
-}
+
+} // namespace stellar

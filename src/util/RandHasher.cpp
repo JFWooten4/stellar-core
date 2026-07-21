@@ -29,4 +29,5 @@ initialize()
     }
 }
 }
-}
+
+} // namespace stellar

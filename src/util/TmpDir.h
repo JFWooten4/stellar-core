@@ -30,4 +30,5 @@ class TmpDirManager
     ~TmpDirManager();
     TmpDir tmpDir(std::string const& prefix);
 };
-}
+
+} // namespace stellar

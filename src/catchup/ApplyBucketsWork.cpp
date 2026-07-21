@@ -315,4 +315,5 @@ ApplyBucketsWork::getStatus() const
 
     return Work::getStatus();
 }
-}
+
+} // namespace stellar

@@ -44,4 +44,5 @@ class BatchWork : public Work
     virtual std::shared_ptr<BasicWork> yieldMoreWork() = 0;
     virtual void resetIter() = 0;
 };
-}
+
+} // namespace stellar

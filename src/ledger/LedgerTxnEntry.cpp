@@ -401,4 +401,5 @@ ConstLedgerTxnEntry::swap(ConstLedgerTxnEntry& other)
 {
     mImpl.swap(other.mImpl);
 }
-}
+
+} // namespace stellar

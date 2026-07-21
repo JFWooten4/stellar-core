@@ -97,4 +97,5 @@ ConditionalWork::getStatus() const
                        mWorkStarted ? "" : "Waiting before starting ",
                        mConditionedWork->getStatus());
 }
-}
+
+} // namespace stellar

@@ -278,4 +278,5 @@ class BatchedTimerScope
     SampleField mField;
     std::chrono::steady_clock::time_point mStart;
 };
-}
+
+} // namespace stellar

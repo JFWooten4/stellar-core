@@ -36,4 +36,5 @@ shim_logAtPartitionAndLevel(std::string const& partition, LogLevel level,
 {
     Logging::logAtPartitionAndLevel(partition, level, msg);
 }
-}
+
+} // namespace stellar

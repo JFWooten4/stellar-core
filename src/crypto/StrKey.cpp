@@ -75,4 +75,5 @@ fromStrKey(std::string const& strKey, uint8_t& outVersion,
     return true;
 }
 }
-}
+
+} // namespace stellar

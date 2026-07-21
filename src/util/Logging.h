@@ -80,7 +80,8 @@
 namespace stellar
 {
 typedef std::shared_ptr<spdlog::logger> LogPtr;
-}
+
+} // namespace stellar
 
 #else
 // No spdlog either: delegate back to old logging interface, which will
@@ -119,7 +120,8 @@ typedef std::shared_ptr<spdlog::logger> LogPtr;
 namespace stellar
 {
 typedef void* LogPtr;
-}
+
+} // namespace stellar
 
 #endif
 
@@ -216,7 +218,8 @@ format_as(T const& u)
     }
     return std::string(res);
 }
-}
+
+} // namespace stellar
 
 namespace std::filesystem
 {

@@ -415,4 +415,5 @@ class HistoryManager
 
     virtual Config const& getConfig() const = 0;
 };
-}
+
+} // namespace stellar

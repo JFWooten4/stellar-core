@@ -40,4 +40,5 @@ class RateLimitedLog : public LogSlowExecution
   public:
     RateLimitedLog(std::string eventName, std::string message);
 };
-}
+
+} // namespace stellar

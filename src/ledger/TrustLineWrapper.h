@@ -157,4 +157,5 @@ class ConstTrustLineWrapper::AbstractImpl
     virtual int64_t
     getMaxAmountReceive(LedgerTxnHeader const& header) const = 0;
 };
-}
+
+} // namespace stellar

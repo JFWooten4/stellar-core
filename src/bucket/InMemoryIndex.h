@@ -238,4 +238,5 @@ class InMemoryIndex
     bool operator==(InMemoryIndex const& in) const;
 #endif
 };
-}
+
+} // namespace stellar

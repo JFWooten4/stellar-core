@@ -302,4 +302,5 @@ class ApplicationImpl : public Application
                         std::unique_ptr<asio::io_context::work>& workPtr,
                         std::string const& threadName);
 };
-}
+
+} // namespace stellar

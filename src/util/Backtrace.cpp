@@ -34,4 +34,5 @@ printCurrentBacktrace()
     fprintf(stderr, "backtrace:\n%s\n", backtrace.c_str());
     fflush(stderr);
 }
-}
+
+} // namespace stellar

@@ -139,4 +139,5 @@ HotArchiveBucket::mergeCasesWithEqualKeys<MemoryMergeInput<HotArchiveBucket>>(
     MergeCounters& mc, MemoryMergeInput<HotArchiveBucket>& inputSource,
     std::function<void(HotArchiveBucketEntry const&)> putFunc,
     uint32_t protocolVersion);
-}
+
+} // namespace stellar

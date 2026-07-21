@@ -662,4 +662,5 @@ FlowControl::FlowControlMetrics::FlowControlMetrics()
 {
     releaseAssert(threadIsMain());
 }
-}
+
+} // namespace stellar

@@ -84,4 +84,5 @@ class PersistentState
                           std::string const& tableName);
     static std::string getTableForEntry(PersistentState::Entry entry);
 };
-}
+
+} // namespace stellar

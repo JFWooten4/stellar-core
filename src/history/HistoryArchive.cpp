@@ -639,4 +639,5 @@ HistoryArchive::mkdirCmd(std::string const& remoteDir) const
         return "";
     return formatString(mConfig.mMkdirCmd, remoteDir);
 }
-}
+
+} // namespace stellar

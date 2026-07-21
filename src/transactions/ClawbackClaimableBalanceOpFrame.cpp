@@ -103,4 +103,5 @@ ClawbackClaimableBalanceOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

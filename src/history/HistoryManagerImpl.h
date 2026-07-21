@@ -89,4 +89,5 @@ class HistoryManagerImpl : public HistoryManager
     }
 #endif
 };
-}
+
+} // namespace stellar

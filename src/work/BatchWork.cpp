@@ -83,4 +83,5 @@ BatchWork::addMoreWorkIfNeeded()
         mBatch.insert(std::make_pair(w->getName(), w));
     }
 }
-}
+
+} // namespace stellar

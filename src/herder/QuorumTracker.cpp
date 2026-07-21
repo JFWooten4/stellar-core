@@ -198,4 +198,5 @@ QuorumTracker::findClosestValidators(NodeID const& nodeOutsideQset)
     releaseAssertOrThrow(isNodeDefinitelyInQuorum(nodeOutsideQset));
     return mQuorum[nodeOutsideQset].mClosestValidators;
 }
-}
+
+} // namespace stellar

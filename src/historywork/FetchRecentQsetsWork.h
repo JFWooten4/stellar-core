@@ -26,4 +26,5 @@ class FetchRecentQsetsWork : public Work
     void doReset() override;
     BasicWork::State doWork() override;
 };
-}
+
+} // namespace stellar

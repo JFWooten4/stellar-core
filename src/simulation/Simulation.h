@@ -194,4 +194,5 @@ class ApplicationLoopbackOverlay : public TestApplication
         return std::make_unique<LoopbackOverlayManager>(*this);
     }
 };
-}
+
+} // namespace stellar

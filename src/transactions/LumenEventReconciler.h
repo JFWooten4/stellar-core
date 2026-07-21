@@ -20,4 +20,4 @@ void reconcileEvents(AccountID const& txSourceAccount,
                      Operation const& operation, LedgerTxnDelta const& ltxDelta,
                      OpEventManager& opEventManager);
 
-}
+} // namespace stellar

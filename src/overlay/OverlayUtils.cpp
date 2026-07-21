@@ -15,4 +15,5 @@ logErrorOrThrow(std::string const& message)
     CLOG_ERROR(Overlay, REPORT_INTERNAL_BUG);
 #endif
 }
-}
+
+} // namespace stellar

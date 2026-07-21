@@ -435,4 +435,5 @@ ApplyLedgerView::ApplyLedgerView(ImmutableLedgerDataPtr state,
     : ImmutableLedgerView(std::move(state), metrics)
 {
 }
-}
+
+} // namespace stellar

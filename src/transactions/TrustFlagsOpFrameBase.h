@@ -45,4 +45,4 @@ class TrustFlagsOpFrameBase : public OperationFrame
                  OperationMetaBuilder& opMeta) const override;
 };
 
-}
+} // namespace stellar

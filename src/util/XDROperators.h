@@ -10,4 +10,5 @@ namespace stellar
 {
 using xdr::operator==;
 using xdr::operator<=>;
-}
+
+} // namespace stellar

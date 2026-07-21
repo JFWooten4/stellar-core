@@ -615,4 +615,5 @@ TEST_CASE("nomination two nodes win stats", "[scp][!hide]")
         }
     }
 }
-}
+
+} // namespace stellar

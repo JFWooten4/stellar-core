@@ -49,4 +49,5 @@ class PeerAuth
                                      uint256 const& remoteNonce,
                                      Peer::PeerRole role);
 };
-}
+
+} // namespace stellar

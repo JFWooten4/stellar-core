@@ -39,4 +39,5 @@ class InflationOpFrame : public OperationFrame
         return res.tr().inflationResult().code();
     }
 };
-}
+
+} // namespace stellar

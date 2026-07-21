@@ -43,4 +43,5 @@ class VerifyTxResultsWork : public BasicWork
         return true;
     };
 };
-}
+
+} // namespace stellar

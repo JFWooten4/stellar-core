@@ -15,4 +15,5 @@ struct LedgerRange;
 
 std::string fmtProgress(Application& app, std::string const& task,
                         LedgerRange const& range, uint32_t curr);
-}
+
+} // namespace stellar

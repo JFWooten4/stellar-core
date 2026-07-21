@@ -235,4 +235,5 @@ SignatureChecker::updateTxSigCacheMetrics(
         ++gCheckValidOrApplyTxSigCacheHits;
     }
 }
-};
+
+} // namespace stellar

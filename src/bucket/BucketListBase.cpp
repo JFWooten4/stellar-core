@@ -893,4 +893,5 @@ template void BucketListBase<LiveBucket>::addBatchInternal(
     std::vector<LedgerEntry> const& initEntries,
     std::vector<LedgerEntry> const& liveEntries,
     std::vector<LedgerKey> const& deadEntries);
-}
+
+} // namespace stellar

@@ -25,4 +25,5 @@ removePasswordFromConnectionString(std::string connectionString)
     return std::regex_replace(connectionString, std::regex(connPat),
                               "$1$2password$3********$4$5");
 }
-}
+
+} // namespace stellar

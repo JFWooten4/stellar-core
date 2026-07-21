@@ -292,4 +292,5 @@ PathPaymentOpFrameBase::updateDestBalance(AbstractLedgerTxn& ltx,
 
     return true;
 }
-}
+
+} // namespace stellar

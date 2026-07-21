@@ -85,4 +85,4 @@ ApplyStage::numClusters() const
     return mClusters.size();
 }
 
-}
+} // namespace stellar

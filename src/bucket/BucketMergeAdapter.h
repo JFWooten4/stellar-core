@@ -173,4 +173,5 @@ template <class BucketT> class MemoryMergeInput : public MergeInput<BucketT>
         ++mNewIdx;
     }
 };
-}
+
+} // namespace stellar

@@ -463,4 +463,5 @@ Logging::logAtPartitionAndLevel(std::string const& partition, LogLevel level,
     CoutLogger logger(level) << msg;
 #endif
 }
-}
+
+} // namespace stellar

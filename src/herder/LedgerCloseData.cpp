@@ -98,4 +98,5 @@ stellarValueToString(Config const& c, StellarValue const& sv)
 
     return res.str();
 }
-}
+
+} // namespace stellar

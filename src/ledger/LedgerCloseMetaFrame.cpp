@@ -341,4 +341,5 @@ LedgerCloseMetaFrame::sortTxMetaByHash()
 }
 
 #endif
-}
+
+} // namespace stellar

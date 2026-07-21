@@ -73,4 +73,5 @@ class Floodgate
 
     void shutdown();
 };
-}
+
+} // namespace stellar

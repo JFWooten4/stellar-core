@@ -268,4 +268,5 @@ HistoryArchiveManager::getWritableHistoryArchives() const
                  });
     return result;
 }
-}
+
+} // namespace stellar

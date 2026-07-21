@@ -87,4 +87,5 @@ class ByteSlice
     {
     }
 };
-}
+
+} // namespace stellar

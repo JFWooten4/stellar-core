@@ -76,4 +76,5 @@ class ConditionalWork : public BasicWork
     bool onAbort() override;
     void onReset() override;
 };
-}
+
+} // namespace stellar

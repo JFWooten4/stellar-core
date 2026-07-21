@@ -359,4 +359,5 @@ class SCPDriver
     hashHelper(uint64 slotIndex, Value const& prev,
                std::function<void(std::vector<xdr::opaque_vec<>>&)> extra);
 };
-}
+
+} // namespace stellar

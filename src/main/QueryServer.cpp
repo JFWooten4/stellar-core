@@ -490,4 +490,5 @@ QueryServer::getLedgerEntry(std::string const& params, std::string const& body,
     retStr = Json::FastWriter().write(root);
     return true;
 }
-}
+
+} // namespace stellar

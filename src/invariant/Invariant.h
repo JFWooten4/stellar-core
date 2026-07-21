@@ -111,4 +111,5 @@ shouldAbortInvariantScan(std::string const& errorMsg,
 {
     return !errorMsg.empty() || isStopping();
 }
-}
+
+} // namespace stellar

@@ -235,4 +235,4 @@ SharedModuleCacheCompiler::getContractsCompiled()
     return mContractsCompiled * mLedgerVersions.size();
 }
 
-}
+} // namespace stellar

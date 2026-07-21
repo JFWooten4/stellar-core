@@ -539,4 +539,5 @@ TEST_CASE("purge peer table", "[overlay][PeerManager]")
     peerManager.removePeersWithManyFailures(2, &localhost2);
     REQUIRE(!peerManager.load(localhost(2)).second);
 }
-}
+
+} // namespace stellar

@@ -28,4 +28,5 @@ class FlushAndRotateMetaDebugWork : public Work
   protected:
     BasicWork::State doWork() override;
 };
-}
+
+} // namespace stellar

@@ -49,4 +49,5 @@ template <typename BucketT> class VerifyBucketWork : public BasicWork
     };
     void onFailureRaise() override;
 };
-}
+
+} // namespace stellar

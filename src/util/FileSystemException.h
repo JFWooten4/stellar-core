@@ -36,4 +36,5 @@ class FileSystemException : public std::runtime_error
     }
     virtual ~FileSystemException() = default;
 };
-}
+
+} // namespace stellar

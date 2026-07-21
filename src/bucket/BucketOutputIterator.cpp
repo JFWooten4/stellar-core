@@ -256,4 +256,5 @@ BucketOutputIterator<BucketT>::getBucket(
 
 template class BucketOutputIterator<LiveBucket>;
 template class BucketOutputIterator<HotArchiveBucket>;
-}
+
+} // namespace stellar

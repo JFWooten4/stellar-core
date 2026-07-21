@@ -136,4 +136,5 @@ class NominationProtocol
     // nothing if `value` has no upgrades.
     void stripUpgrades(ValueWrapperPtr& value) const;
 };
-}
+
+} // namespace stellar

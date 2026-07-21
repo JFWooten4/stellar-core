@@ -59,4 +59,5 @@ struct LedgerRange final
     friend bool operator==(LedgerRange const& x, LedgerRange const& y);
     friend bool operator!=(LedgerRange const& x, LedgerRange const& y);
 };
-}
+
+} // namespace stellar

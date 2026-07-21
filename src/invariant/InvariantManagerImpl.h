@@ -100,4 +100,5 @@ class InvariantManagerImpl : public InvariantManager
     void scheduleSnapshotTimer();
     void snapshotTimerFired();
 };
-}
+
+} // namespace stellar

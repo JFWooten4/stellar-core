@@ -1607,4 +1607,5 @@ ConfigUpgradeSetFrame::toJson() const
     cereal::save(ar, mConfigUpgradeSet);
     return out.str();
 }
-}
+
+} // namespace stellar

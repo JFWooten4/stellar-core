@@ -19,4 +19,5 @@ void signtxn(std::string const& filename, std::string netId, bool base64);
 void priv2pub();
 void readFile(std::string const& filename, bool base64,
               std::function<void(xdr::opaque_vec<>)> proc);
-}
+
+} // namespace stellar

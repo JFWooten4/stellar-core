@@ -337,4 +337,5 @@ class RealTimer : public asio::basic_waitable_timer<std::chrono::system_clock>
     }
 };
 #endif
-}
+
+} // namespace stellar

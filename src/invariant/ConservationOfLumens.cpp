@@ -371,4 +371,5 @@ ConservationOfLumens::checkSnapshot(
     }
     return std::string{};
 }
-}
+
+} // namespace stellar

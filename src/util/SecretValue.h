@@ -23,4 +23,5 @@ struct SecretValue
 
 bool operator==(SecretValue const& x, SecretValue const& y);
 bool operator!=(SecretValue const& x, SecretValue const& y);
-}
+
+} // namespace stellar

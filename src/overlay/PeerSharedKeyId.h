@@ -17,7 +17,8 @@ struct PeerSharedKeyId
     friend bool operator==(PeerSharedKeyId const& x, PeerSharedKeyId const& y);
     friend bool operator!=(PeerSharedKeyId const& x, PeerSharedKeyId const& y);
 };
-}
+
+} // namespace stellar
 
 namespace std
 {

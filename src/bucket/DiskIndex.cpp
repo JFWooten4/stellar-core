@@ -413,4 +413,5 @@ template DiskIndex<HotArchiveBucket>::DiskIndex(cereal::BinaryInputArchive& ar,
 template DiskIndex<LiveBucket>::DiskIndex(cereal::BinaryInputArchive& ar,
                                           BucketManager const& bm,
                                           std::streamoff pageSize);
-}
+
+} // namespace stellar

@@ -23,4 +23,5 @@ SignerKey hashXKey(ByteSlice const& bs);
 SignerKey ed25519PayloadKey(uint256 const& ed25519,
                             xdr::opaque_vec<64> const& payload);
 }
-}
+
+} // namespace stellar

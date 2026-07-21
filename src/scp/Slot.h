@@ -215,4 +215,5 @@ class Slot : public std::enable_shared_from_this<Slot>
     void maybeSetGotVBlocking();
     friend class TestSCP;
 };
-}
+
+} // namespace stellar

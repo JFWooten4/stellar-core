@@ -396,4 +396,5 @@ class TransactionFrame : public TransactionFrameBase
     friend class TransactionTestFrame;
 #endif
 };
-}
+
+} // namespace stellar

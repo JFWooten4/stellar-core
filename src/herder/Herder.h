@@ -256,4 +256,5 @@ class Herder
     virtual bool isBannedTx(Hash const& hash) const = 0;
     virtual TransactionFrameBaseConstPtr getTx(Hash const& hash) const = 0;
 };
-}
+
+} // namespace stellar

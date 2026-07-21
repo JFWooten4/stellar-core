@@ -114,4 +114,5 @@ ClawbackOpFrame::doesAccessFrozenKey(
     return sorobanConfig.isKeyFrozen(
         trustlineKey(toAccountID(mClawback.from), mClawback.asset));
 }
-}
+
+} // namespace stellar

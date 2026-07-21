@@ -180,4 +180,5 @@ InMemoryLedgerTxnRoot::getBestOfferSlow(Asset const& buying,
     return nullptr;
 }
 #endif
-}
+
+} // namespace stellar

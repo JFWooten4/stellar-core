@@ -25,4 +25,5 @@ class MetricResetter : public medida::MetricProcessor
     void Process(medida::Timer& timer) override;
     void Process(medida::Buckets& buckets) override;
 };
-}
+
+} // namespace stellar

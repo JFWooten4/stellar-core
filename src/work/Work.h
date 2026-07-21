@@ -147,4 +147,5 @@ bool allSuccessful(std::list<std::shared_ptr<BasicWork>> const& works);
 bool anyFailed(std::list<std::shared_ptr<BasicWork>> const& works);
 bool anyRunning(std::list<std::shared_ptr<BasicWork>> const& works);
 }
-}
+
+} // namespace stellar

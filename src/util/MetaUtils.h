@@ -19,4 +19,5 @@ void normalizeMeta(LedgerCloseMeta& lcm);
 // Zeros out wall-clock timing fields (e.g. invoke_time_nsecs) in diagnostic
 // events so that LCM is deterministic across runs.
 void zeroNonDeterministicDiagnostics(LedgerCloseMeta& lcm);
-}
+
+} // namespace stellar

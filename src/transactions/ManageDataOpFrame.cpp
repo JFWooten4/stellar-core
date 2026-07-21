@@ -134,4 +134,5 @@ ManageDataOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

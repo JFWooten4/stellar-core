@@ -73,7 +73,8 @@ curve25519Encrypt(Curve25519Public const& remotePublic, ByteSlice const& bin)
 
     return ciphertext;
 }
-}
+
+} // namespace stellar
 
 namespace std
 {

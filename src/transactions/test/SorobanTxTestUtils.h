@@ -505,4 +505,5 @@ class AuthTestTreeNode
     SorobanAuthorizedInvocation toAuthorizedInvocation() const;
 };
 }
-}
+
+} // namespace stellar

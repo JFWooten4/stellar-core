@@ -247,4 +247,5 @@ TEST_CASE("sane quorum set", "[scp][quorumset]")
         check(qSet, false, qSet);
     }
 }
-}
+
+} // namespace stellar

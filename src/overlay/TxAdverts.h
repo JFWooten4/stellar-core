@@ -75,4 +75,5 @@ class TxAdverts
 
     static int64_t getOpsFloodLedger(size_t maxOps, double rate);
 };
-}
+
+} // namespace stellar

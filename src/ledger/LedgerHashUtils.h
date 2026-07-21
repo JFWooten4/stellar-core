@@ -74,7 +74,7 @@ getAssetHash(T const& asset)
     return res;
 }
 
-}
+} // namespace stellar
 
 // implements a default hasher for "LedgerKey"
 namespace std

@@ -53,4 +53,5 @@ HistoryArchiveReportWork::onFailureRaise()
         }
     }
 }
-}
+
+} // namespace stellar

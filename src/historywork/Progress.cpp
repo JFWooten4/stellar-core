@@ -43,4 +43,5 @@ fmtProgress(Application& app, std::string const& task, LedgerRange const& range,
     return fmt::format(FMT_STRING("{:s} {:d}/{:d} ({:d}%)"), task, done, total,
                        pct);
 }
-}
+
+} // namespace stellar

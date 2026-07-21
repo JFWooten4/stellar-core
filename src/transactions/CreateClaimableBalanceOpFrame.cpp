@@ -328,4 +328,5 @@ CreateClaimableBalanceOpFrame::doesAccessFrozenKey(
            sorobanConfig.isKeyFrozen(
                trustlineKey(getSourceID(), mCreateClaimableBalance.asset));
 }
-}
+
+} // namespace stellar

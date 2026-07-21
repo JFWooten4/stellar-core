@@ -10,4 +10,5 @@ namespace stellar
 {
 
 std::string removePasswordFromConnectionString(std::string connectionString);
-}
+
+} // namespace stellar

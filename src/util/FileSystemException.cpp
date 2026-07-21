@@ -37,4 +37,5 @@ FileSystemException::failWithGetLastError(std::string msg)
     failWith(msg + ", " + getLastErrorString());
 }
 #endif
-}
+
+} // namespace stellar

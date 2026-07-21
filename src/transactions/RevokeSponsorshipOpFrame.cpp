@@ -476,4 +476,5 @@ RevokeSponsorshipOpFrame::doesAccessFrozenKey(
     }
     return false;
 }
-}
+
+} // namespace stellar

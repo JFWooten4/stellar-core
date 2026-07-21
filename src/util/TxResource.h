@@ -148,4 +148,5 @@ class Resource
     friend bool operator==(Resource const& lhs, Resource const& rhs);
     friend bool operator>(Resource const& lhs, Resource const& rhs);
 };
+
 } // namespace stellar

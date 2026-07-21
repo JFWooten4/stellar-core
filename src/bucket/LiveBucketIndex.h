@@ -155,4 +155,5 @@ class LiveBucketIndex : public NonMovableOrCopyable
 #endif
     size_t getCurrentCacheSize() const;
 };
-}
+
+} // namespace stellar

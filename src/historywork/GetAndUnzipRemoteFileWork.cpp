@@ -225,4 +225,5 @@ GetAndUnzipRemoteFileWork::getArchive() const
     }
     return nullptr;
 }
-}
+
+} // namespace stellar

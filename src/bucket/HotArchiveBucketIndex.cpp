@@ -74,4 +74,5 @@ HotArchiveBucketIndex::operator==(HotArchiveBucketIndex const& in) const
 template HotArchiveBucketIndex::HotArchiveBucketIndex(
     BucketManager const& bm, cereal::BinaryInputArchive& ar,
     std::streamoff pageSize);
-}
+
+} // namespace stellar

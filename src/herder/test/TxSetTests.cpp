@@ -3465,4 +3465,5 @@ TEST_CASE("parallel tx set building benchmark",
     std::cout << "===" << std::endl;
 }
 } // namespace
+
 } // namespace stellar

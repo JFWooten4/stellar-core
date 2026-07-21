@@ -40,4 +40,5 @@ ApplyLedgerWork::getStatus() const
     return fmt::format(FMT_STRING("apply ledger {:d}"),
                        mLedgerCloseData.getLedgerSeq());
 }
-}
+
+} // namespace stellar

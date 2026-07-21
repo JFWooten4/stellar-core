@@ -102,4 +102,5 @@ class FlowControlMessageCapacity : public FlowControlCapacity
     void releaseOutboundCapacity(StellarMessage const& msg) override;
     bool canRead() const override;
 };
-}
+
+} // namespace stellar

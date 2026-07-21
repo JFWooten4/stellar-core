@@ -274,4 +274,5 @@ Tracker::getDuration()
 {
     return mFetchTime.checkElapsedTime();
 }
-}
+
+} // namespace stellar

@@ -148,4 +148,5 @@ BannedAccountsPersistor::getBannedAccountStrKeys() const
     }
     return keys;
 }
-}
+
+} // namespace stellar

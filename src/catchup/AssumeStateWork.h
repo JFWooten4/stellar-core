@@ -34,4 +34,5 @@ class AssumeStateWork : public Work
     State doWork() override;
     void doReset() override;
 };
-}
+
+} // namespace stellar

@@ -85,4 +85,4 @@ SimpleTimerContext::Stop()
     return std::chrono::nanoseconds{0};
 }
 
-}
+} // namespace stellar

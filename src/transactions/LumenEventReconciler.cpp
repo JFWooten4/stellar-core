@@ -77,4 +77,5 @@ reconcileEvents(AccountID const& txSourceAccount, Operation const& operation,
                                     std::abs(deltaBalances));
     }
 }
-}
+
+} // namespace stellar

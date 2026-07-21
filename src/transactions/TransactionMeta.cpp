@@ -1118,4 +1118,5 @@ TransactionMetaBuilder::maybePushChanges(AbstractLedgerTxn& changesLtx,
         vecAppend(destChanges, changesLtx.getChanges());
     }
 }
-}
+
+} // namespace stellar

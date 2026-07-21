@@ -802,4 +802,4 @@ FeeBumpTransactionFrame::withInnerTx(
     fn(mInnerTx);
 }
 
-}
+} // namespace stellar

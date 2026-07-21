@@ -611,4 +611,4 @@ LedgerApplyManagerImpl::fileDownloaded(FileType type, uint32_t num)
     }
 }
 
-}
+} // namespace stellar

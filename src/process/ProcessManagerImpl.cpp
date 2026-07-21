@@ -948,4 +948,5 @@ ProcessExitEvent::async_wait(
     std::function<void(asio::error_code)> h(handler);
     mTimer->async_wait([ec, h](asio::error_code) { h(*ec); });
 }
-}
+
+} // namespace stellar

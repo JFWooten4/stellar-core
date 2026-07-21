@@ -86,4 +86,4 @@ std::optional<unsigned int> getLastGlobalStateSeed();
 void reinitializeAllGlobalStateForFuzzing(unsigned int seed);
 #endif
 
-}
+} // namespace stellar

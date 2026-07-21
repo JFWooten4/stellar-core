@@ -82,4 +82,5 @@ class InvokeHostFunctionOpFrame : public OperationFrame
     friend class InvokeHostFunctionPreV23ApplyHelper;
     friend class InvokeHostFunctionParallelApplyHelper;
 };
-}
+
+} // namespace stellar

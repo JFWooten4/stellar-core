@@ -135,4 +135,5 @@ class LedgerApplyManagerImpl : public LedgerApplyManager
     }
 #endif
 };
-}
+
+} // namespace stellar

@@ -90,4 +90,5 @@ class ManageOfferOpFrameBase : public OperationFrame
     virtual void setResultNotFound(OperationResult& res) const = 0;
     virtual void setResultLowReserve(OperationResult& res) const = 0;
 };
-}
+
+} // namespace stellar

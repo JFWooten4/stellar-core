@@ -46,4 +46,5 @@ class BannedAccountsPersistor
   private:
     Application& mApp;
 };
-}
+
+} // namespace stellar

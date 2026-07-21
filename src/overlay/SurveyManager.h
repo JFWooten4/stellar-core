@@ -168,4 +168,5 @@ class SurveyManager : public std::enable_shared_from_this<SurveyManager>,
     // Manager for time-sliced survey data
     SurveyDataManager mSurveyDataManager;
 };
-}
+
+} // namespace stellar

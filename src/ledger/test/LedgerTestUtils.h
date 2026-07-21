@@ -127,4 +127,5 @@ std::vector<LedgerHeaderHistoryEntry> generateLedgerHeadersForCheckpoint(
 
 UpgradeType toUpgradeType(LedgerUpgrade const& upgrade);
 }
-}
+
+} // namespace stellar

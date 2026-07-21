@@ -205,4 +205,5 @@ CreateAccountOpFrame::doesAccessFrozenKey(
 {
     return sorobanConfig.isKeyFrozen(accountKey(mCreateAccount.destination));
 }
-}
+
+} // namespace stellar

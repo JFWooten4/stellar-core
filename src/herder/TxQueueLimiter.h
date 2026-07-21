@@ -105,4 +105,5 @@ class TxQueueLimiter
     void markTxForFlood(TransactionFrameBasePtr const& tx,
                         uint32_t ledgerVersion);
 };
-}
+
+} // namespace stellar

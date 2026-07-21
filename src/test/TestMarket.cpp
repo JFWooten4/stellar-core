@@ -262,4 +262,5 @@ TestMarket::checkState(std::map<OfferKey, OfferState> const& offers,
         REQUIRE(!stellar::loadOffer(ltx, o.sellerID, o.offerID));
     }
 }
-}
+
+} // namespace stellar

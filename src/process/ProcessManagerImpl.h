@@ -63,4 +63,5 @@ class ProcessManagerImpl : public ProcessManager
 
     ~ProcessManagerImpl() override;
 };
-}
+
+} // namespace stellar

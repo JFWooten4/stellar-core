@@ -24,4 +24,5 @@ class GunzipFileWork : public RunCommandWork
   protected:
     void onReset() override;
 };
-}
+
+} // namespace stellar

@@ -632,4 +632,5 @@ generateTransactions(Application& app, std::filesystem::path const& outputFile,
     LOG_INFO(DEFAULT_LOG, "Generated {} transactions in {}", numTransactions,
              outputFile);
 }
-}
+
+} // namespace stellar

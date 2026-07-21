@@ -22,4 +22,5 @@ class HotArchiveBucketList : public BucketListBase<HotArchiveBucket>
                   std::vector<LedgerEntry> const& archiveEntries,
                   std::vector<LedgerKey> const& restoredEntries);
 };
-}
+
+} // namespace stellar

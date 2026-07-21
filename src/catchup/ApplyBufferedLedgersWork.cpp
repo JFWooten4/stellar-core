@@ -108,4 +108,5 @@ ApplyBufferedLedgersWork::onAbort()
     }
     return true;
 }
-}
+
+} // namespace stellar

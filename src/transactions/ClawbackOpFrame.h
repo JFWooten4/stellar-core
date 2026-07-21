@@ -43,4 +43,5 @@ class ClawbackOpFrame : public OperationFrame
         return res.tr().clawbackResult().code();
     }
 };
-}
+
+} // namespace stellar

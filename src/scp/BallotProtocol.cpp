@@ -2437,4 +2437,5 @@ BallotProtocol::ballotToStr(
     }
     return res;
 }
-}
+
+} // namespace stellar

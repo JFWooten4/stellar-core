@@ -179,4 +179,5 @@ NtpProbe::onResult(bool succeeded, int64_t offsetMs)
 
     scheduleNext(NTP_PROBE_INTERVAL);
 }
-}
+
+} // namespace stellar

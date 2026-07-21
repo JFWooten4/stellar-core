@@ -368,4 +368,5 @@ template<class _RandomAccessIterator, class _UniformRandomNumberGenerator>
         }
     }
 }
-}
+
+} // namespace stellar

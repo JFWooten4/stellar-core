@@ -99,4 +99,5 @@ class InvariantManager
         return invariant;
     }
 };
-}
+
+} // namespace stellar

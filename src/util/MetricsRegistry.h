@@ -30,4 +30,5 @@ class MetricsRegistry : public medida::MetricsRegistry
     // prometheus exporter.
     void syncSimpleTimerStats();
 };
-}
+
+} // namespace stellar

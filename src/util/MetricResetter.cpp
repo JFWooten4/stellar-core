@@ -36,4 +36,5 @@ MetricResetter::Process(medida::Buckets& buckets)
 {
     buckets.Clear();
 }
-}
+
+} // namespace stellar

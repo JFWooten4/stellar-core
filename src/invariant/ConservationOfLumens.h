@@ -41,4 +41,5 @@ class ConservationOfLumens : public Invariant
   private:
     AssetContractInfo const mLumenContractInfo;
 };
-}
+
+} // namespace stellar

@@ -454,4 +454,5 @@ OperationFrame::getResourcesExt() const
 {
     return mParentTx.getResourcesExt();
 }
-}
+
+} // namespace stellar

@@ -492,4 +492,5 @@ TransactionTestFrame::withInnerTx(
 {
     mTransactionFrame->withInnerTx(fn);
 }
-}
+
+} // namespace stellar

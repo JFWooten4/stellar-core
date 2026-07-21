@@ -569,4 +569,5 @@ TEST_CASE("Flooding", "[flood][overlay][acceptance]")
         }
     }
 }
-}
+
+} // namespace stellar

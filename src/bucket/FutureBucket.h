@@ -187,4 +187,5 @@ template <class BucketT> class FutureBucket
         }
     }
 };
-}
+
+} // namespace stellar

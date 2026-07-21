@@ -68,4 +68,5 @@ class RestoreFootprintOpFrame : public OperationFrame
     friend class RestoreFootprintPreV23ApplyHelper;
     friend class RestoreFootprintParallelApplyHelper;
 };
-}
+
+} // namespace stellar

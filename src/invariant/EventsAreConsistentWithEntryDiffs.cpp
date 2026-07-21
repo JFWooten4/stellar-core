@@ -619,4 +619,5 @@ EventsAreConsistentWithEntryDiffs::checkOnOperationApply(
     }
     return {};
 }
-}
+
+} // namespace stellar

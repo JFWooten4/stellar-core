@@ -30,4 +30,5 @@ class WriteSnapshotWork : public BasicWork
         return true;
     };
 };
-}
+
+} // namespace stellar

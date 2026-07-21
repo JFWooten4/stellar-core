@@ -326,4 +326,5 @@ ConvertResult convertWithOffersAndPools(
 // Compute a PoolID as needed for offer exchange. Determines the correct order
 // for x and y.
 PoolID getPoolID(Asset const& x, Asset const& y, int32_t feeBps);
-}
+
+} // namespace stellar

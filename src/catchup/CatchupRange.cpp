@@ -157,4 +157,5 @@ CatchupRange::checkInvariants()
         releaseAssert(mReplayRange.mFirst == 0);
     }
 }
-}
+
+} // namespace stellar

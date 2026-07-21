@@ -55,4 +55,5 @@ xdrBlake2(T const& t)
     xb.flush();
     return xb.state.finish();
 }
-}
+
+} // namespace stellar

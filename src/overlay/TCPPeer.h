@@ -155,4 +155,5 @@ class TCPPeer : public Peer
     virtual void drop(std::string const& reason,
                       DropDirection dropDirection) override;
 };
-}
+
+} // namespace stellar

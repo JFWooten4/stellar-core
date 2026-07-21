@@ -47,4 +47,5 @@ class BucketListIsConsistentWithDatabase : public Invariant
   private:
     Application& mApp;
 };
-}
+
+} // namespace stellar

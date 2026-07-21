@@ -172,4 +172,4 @@ parseQuorumMapFromJson(std::string const& jsonPath)
     return qmap;
 }
 
-}
+} // namespace stellar

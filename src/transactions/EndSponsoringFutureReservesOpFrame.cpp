@@ -80,4 +80,5 @@ EndSponsoringFutureReservesOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

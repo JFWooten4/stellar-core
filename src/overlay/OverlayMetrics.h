@@ -131,4 +131,5 @@ struct OverlayMetrics
     medida::Meter& mDuplicateFetchBytesRecv;
     medida::Histogram& mTxBatchSizeHistogram;
 };
-}
+
+} // namespace stellar

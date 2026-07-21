@@ -42,4 +42,5 @@ StatusManager::getStatusMessage(StatusCategory issue) const
         return it->second;
     }
 }
-}
+
+} // namespace stellar

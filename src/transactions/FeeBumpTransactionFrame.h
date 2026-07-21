@@ -200,4 +200,5 @@ class FeeBumpTransactionFrame : public TransactionFrameBase
     void withInnerTx(
         std::function<void(TransactionFrameBaseConstPtr)> fn) const override;
 };
-}
+
+} // namespace stellar

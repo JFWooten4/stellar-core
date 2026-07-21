@@ -324,4 +324,5 @@ WriteVerifiedCheckpointHashesWork::onSuccess()
 {
     endOutputFile();
 }
-}
+
+} // namespace stellar

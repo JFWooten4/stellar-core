@@ -146,4 +146,5 @@ void generateTransactions(Application& app,
                           std::filesystem::path const& outputFile,
                           uint32_t numTransactions, uint32_t accounts,
                           uint32_t offset);
-}
+
+} // namespace stellar

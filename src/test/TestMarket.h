@@ -118,4 +118,5 @@ class TestMarket
     void checkState(std::map<OfferKey, OfferState> const& offers,
                     std::vector<OfferKey> const& deletedOffers);
 };
-}
+
+} // namespace stellar

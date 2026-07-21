@@ -578,4 +578,5 @@ LoopbackPeer::checkCapacity(std::shared_ptr<LoopbackPeer> otherPeer) const
                    .getFlowControlBytesTotal() ==
                getFlowControl()->getCapacityBytes().getOutboundCapacity();
 }
-}
+
+} // namespace stellar

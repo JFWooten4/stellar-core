@@ -286,4 +286,5 @@ PathPaymentStrictSendOpFrame::setResultConstraintNotMet(
 {
     innerResult(res).code(PATH_PAYMENT_STRICT_SEND_UNDER_DESTMIN);
 }
-}
+
+} // namespace stellar

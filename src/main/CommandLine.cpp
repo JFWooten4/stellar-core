@@ -2142,4 +2142,5 @@ handleCommandLine(int argc, char* const* argv)
         return 1;
     }
 }
-}
+
+} // namespace stellar

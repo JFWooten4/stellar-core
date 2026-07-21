@@ -46,4 +46,5 @@ toQuorumIntersectionMap(QuorumTracker::QuorumMap const& qmap);
 
 QuorumIntersectionChecker::QuorumSetMap
 parseQuorumMapFromJson(std::string const& jsonPath);
-}
+
+} // namespace stellar

@@ -71,4 +71,5 @@ constexpr ProtocolVersion EMPTY_TX_SET_PROTOCOL_VERSION = ProtocolVersion::V_28;
 constexpr ProtocolVersion EMPTY_TX_SET_PROTOCOL_VERSION =
     ProtocolVersion::V_UINT32_MAX;
 #endif
-}
+
+} // namespace stellar

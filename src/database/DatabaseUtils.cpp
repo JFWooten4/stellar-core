@@ -31,4 +31,5 @@ deleteOldEntriesHelper(soci::session& sess, uint32_t ledgerSeq, uint32_t count,
     }
 }
 }
-}
+
+} // namespace stellar

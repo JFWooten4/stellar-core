@@ -135,4 +135,5 @@ doesHintMatch(ByteSlice const& bs, SignatureHint const& hint)
     return memcmp(bs.end() - hint.size(), hint.data(), hint.size()) == 0;
 }
 }
-}
+
+} // namespace stellar

@@ -236,4 +236,5 @@ class RandomEvictionCache : public NonMovableOrCopyable
         return *result;
     }
 };
-}
+
+} // namespace stellar

@@ -51,4 +51,5 @@ using LockGuard = MutexLocker;
 #define RECURSIVE_LOCK_GUARD(mutex_, guardName) \
     RecursiveLockGuard guardName(mutex_)
 #define LOCK_GUARD(mutex_, guardName) LockGuard guardName(mutex_)
-}
+
+} // namespace stellar

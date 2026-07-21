@@ -320,4 +320,4 @@ class ImmutableLedgerData : public NonMovableOrCopyable
     HistoryArchiveState const& getLastClosedHistoryArchiveState() const;
 };
 
-}
+} // namespace stellar

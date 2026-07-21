@@ -26,4 +26,5 @@ int runVersion(CommandLineArgs const&);
 void writeVersionInfo(std::ostream& os);
 
 void writeWithTextFlow(std::ostream& os, std::string const& text);
-}
+
+} // namespace stellar

@@ -288,4 +288,5 @@ decodeOpaqueXDR(std::string const& in, soci::indicator const& ind, T& out)
         out = T{};
     }
 }
-}
+
+} // namespace stellar

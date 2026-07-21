@@ -298,4 +298,5 @@ class CatchupSimulation
     void restartApp();
 };
 }
-}
+
+} // namespace stellar

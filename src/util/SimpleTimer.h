@@ -78,4 +78,5 @@ class SimpleTimerContext
     void Reset();
     std::chrono::nanoseconds Stop();
 };
-}
+
+} // namespace stellar

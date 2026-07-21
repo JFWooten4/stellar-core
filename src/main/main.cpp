@@ -148,7 +148,8 @@ outOfMemory()
     std::fflush(stderr);
     printBacktraceAndAbort();
 }
-}
+
+} // namespace stellar
 
 // We would like this to be a static check but it seems like cxx.rs isn't going
 // to let us export static constants so we do it first thing during startup.
@@ -160,7 +161,8 @@ namespace stellar
 {
 extern std::vector<std::pair<std::filesystem::path, std::string>> const
     XDR_FILES_SHA256;
-}
+
+} // namespace stellar
 
 namespace
 {

@@ -63,4 +63,5 @@ class ManageSellOfferOpFrame : public ManageOfferOpFrameBase
         return res.tr().manageSellOfferResult().code();
     }
 };
-}
+
+} // namespace stellar

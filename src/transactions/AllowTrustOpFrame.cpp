@@ -196,4 +196,5 @@ AllowTrustOpFrame::doesAccessFrozenKey(
 {
     return sorobanConfig.isKeyFrozen(trustlineKey(mAllowTrust.trustor, mAsset));
 }
-}
+
+} // namespace stellar

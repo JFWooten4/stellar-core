@@ -11,4 +11,5 @@ namespace stellar
 {
 template <class KeyT, class Hasher = std::hash<KeyT>>
 using UnorderedSet = std::unordered_set<KeyT, RandHasher<KeyT, Hasher>>;
-}
+
+} // namespace stellar

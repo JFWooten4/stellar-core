@@ -293,4 +293,5 @@ MergeOpFrame::doesAccessFrozenKey(
     return sorobanConfig.isKeyFrozen(
         accountKey(toAccountID(mOperation.body.destination())));
 }
-}
+
+} // namespace stellar

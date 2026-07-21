@@ -216,4 +216,5 @@ SurveyMessageLimiter::clearOldLedgers(uint32_t lastClosedledgerSeq)
         }
     }
 }
-}
+
+} // namespace stellar

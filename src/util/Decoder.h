@@ -69,4 +69,5 @@ decode_b64(Iter1 start, Iter1 end, Iter2 out)
     bn::decode_b64(start, end, out);
 }
 }
-}
+
+} // namespace stellar

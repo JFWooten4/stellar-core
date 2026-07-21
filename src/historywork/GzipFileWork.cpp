@@ -39,4 +39,5 @@ GzipFileWork::getCommand()
 
     return CommandInfo{cmdLine, outFile};
 }
-}
+
+} // namespace stellar

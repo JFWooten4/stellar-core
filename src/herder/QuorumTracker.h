@@ -82,4 +82,5 @@ class QuorumTracker : public NonMovableOrCopyable
     std::set<NodeID> const&
     findClosestValidators(NodeID const& nodeOutsideQset);
 };
-}
+
+} // namespace stellar

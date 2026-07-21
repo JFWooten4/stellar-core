@@ -18,4 +18,5 @@ class InvariantDoesNotHold : public std::runtime_error
     }
     virtual ~InvariantDoesNotHold() = default;
 };
-}
+
+} // namespace stellar

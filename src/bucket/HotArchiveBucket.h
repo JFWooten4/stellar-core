@@ -96,4 +96,5 @@ class HotArchiveBucket
 
     friend class SearchableHotArchiveBucketListSnapshot;
 };
-}
+
+} // namespace stellar

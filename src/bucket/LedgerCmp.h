@@ -252,4 +252,5 @@ template <typename BucketT> struct BucketEntryIdCmp
         }
     }
 };
-}
+
+} // namespace stellar

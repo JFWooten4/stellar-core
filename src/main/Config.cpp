@@ -2899,4 +2899,5 @@ Config::getExpectedLedgerCloseTimeTestingOverride() const
 }
 
 std::string const Config::STDIN_SPECIAL_NAME = "stdin";
-}
+
+} // namespace stellar

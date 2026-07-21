@@ -442,4 +442,5 @@ BasicWork::getInternalState(State s) const
         abort();
     }
 }
-}
+
+} // namespace stellar

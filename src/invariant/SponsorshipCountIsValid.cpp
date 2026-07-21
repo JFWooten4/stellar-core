@@ -250,4 +250,5 @@ SponsorshipCountIsValid::checkOnOperationApply(
 
     return {};
 }
-}
+
+} // namespace stellar

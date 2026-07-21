@@ -470,4 +470,5 @@ ArchivedStateConsistency::checkRestoreInvariants(
 
     return std::string{};
 }
-};
+
+} // namespace stellar

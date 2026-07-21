@@ -72,4 +72,5 @@ BLAKE2::finish()
     }
     return out;
 }
-}
+
+} // namespace stellar

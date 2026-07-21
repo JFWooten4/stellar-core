@@ -333,4 +333,5 @@ class BallotProtocol
 
     std::string ballotToStr(SCPBallotWrapperUPtr const& ballot) const;
 };
-}
+
+} // namespace stellar

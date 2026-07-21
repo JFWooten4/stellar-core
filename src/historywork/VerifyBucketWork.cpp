@@ -163,4 +163,5 @@ VerifyBucketWork<BucketT>::onFailureRaise()
 
 template class VerifyBucketWork<LiveBucket>;
 template class VerifyBucketWork<HotArchiveBucket>;
-}
+
+} // namespace stellar

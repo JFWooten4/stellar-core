@@ -14,7 +14,8 @@ using namespace stellar;
 namespace stellar
 {
 class Peer;
-}
+
+} // namespace stellar
 
 class Hmac
 {

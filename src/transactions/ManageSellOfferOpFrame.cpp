@@ -180,4 +180,5 @@ ManageSellOfferOpFrame::setResultLowReserve(OperationResult& res) const
 {
     res.tr().manageSellOfferResult().code(MANAGE_SELL_OFFER_LOW_RESERVE);
 }
-}
+
+} // namespace stellar

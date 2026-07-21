@@ -38,4 +38,5 @@ size_t getStrKeySize(size_t dataSize);
 bool fromStrKey(std::string const& strKey, uint8_t& outVersion,
                 std::vector<uint8_t>& decoded);
 }
-}
+
+} // namespace stellar

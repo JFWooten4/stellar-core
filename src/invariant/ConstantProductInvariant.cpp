@@ -89,4 +89,5 @@ ConstantProductInvariant::checkOnOperationApply(
 
     return {};
 }
-}
+
+} // namespace stellar

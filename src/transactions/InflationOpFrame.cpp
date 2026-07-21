@@ -152,4 +152,5 @@ InflationOpFrame::doesAccessFrozenKey(
 {
     return false;
 }
-}
+
+} // namespace stellar

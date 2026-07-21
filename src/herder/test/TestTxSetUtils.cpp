@@ -218,4 +218,5 @@ makeNonValidatedGeneralizedTxSet(PhaseComponents const& classicTxsPerBaseFee,
 }
 
 } // namespace testtxset
+
 } // namespace stellar

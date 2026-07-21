@@ -65,4 +65,5 @@ hexToBin256(std::string const& hex)
     memcpy(out.data(), bin.data(), bin.size());
     return out;
 }
-}
+
+} // namespace stellar

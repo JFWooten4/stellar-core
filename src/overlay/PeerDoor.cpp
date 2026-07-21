@@ -102,4 +102,5 @@ PeerDoor::handleKnock(shared_ptr<TCPPeer::SocketType> socket)
     }
     acceptNextPeer();
 }
-}
+
+} // namespace stellar

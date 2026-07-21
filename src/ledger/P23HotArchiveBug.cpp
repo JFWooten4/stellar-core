@@ -604,4 +604,5 @@ Protocol23CorruptionEventReconciler::hasReconciliationAmount(
 }
 
 } // namespace p23_hot_archive_bug
+
 } // namespace stellar

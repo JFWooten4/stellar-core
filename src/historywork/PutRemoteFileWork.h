@@ -24,4 +24,5 @@ class PutRemoteFileWork : public RunCommandWork
                       std::shared_ptr<HistoryArchive> archive);
     ~PutRemoteFileWork() = default;
 };
-}
+
+} // namespace stellar

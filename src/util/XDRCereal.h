@@ -203,4 +203,5 @@ xdrToCerealString(T const& t, std::string const& name, bool compact = false)
     }
     return os.str();
 }
-}
+
+} // namespace stellar

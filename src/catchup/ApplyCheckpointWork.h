@@ -87,4 +87,5 @@ class ApplyCheckpointWork : public BasicWork
     State onRun() override;
     bool onAbort() override;
 };
-}
+
+} // namespace stellar

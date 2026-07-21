@@ -650,4 +650,5 @@ char const* PeerManager::kSQLCreateStatement =
     "type          INT NOT NULL,"
     "PRIMARY KEY (ip, port)"
     ");";
-}
+
+} // namespace stellar

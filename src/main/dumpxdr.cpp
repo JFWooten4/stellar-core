@@ -501,4 +501,5 @@ priv2pub()
         cerr << e.what() << endl;
     }
 }
-}
+
+} // namespace stellar

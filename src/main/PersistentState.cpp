@@ -424,4 +424,5 @@ PersistentState::getFromDb(std::string const& entry, SessionWrapper& sess,
 
     return res;
 }
-}
+
+} // namespace stellar

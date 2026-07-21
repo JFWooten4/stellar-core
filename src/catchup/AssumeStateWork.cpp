@@ -123,4 +123,5 @@ AssumeStateWork::doReset()
 {
     mWorkSpawned = false;
 }
-}
+
+} // namespace stellar

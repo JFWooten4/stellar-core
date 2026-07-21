@@ -220,4 +220,5 @@ class FeeBumpMutableTransactionResult : public MutableTransactionResultBase
     std::unique_ptr<MutableTransactionResultBase> clone() const override;
 #endif
 };
-}
+
+} // namespace stellar

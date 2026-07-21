@@ -669,4 +669,5 @@ template void LiveBucket::mergeCasesWithEqualKeys<MemoryMergeInput<LiveBucket>>(
     std::function<void(BucketEntry const&)> putFunc, uint32_t protocolVersion,
     std::vector<LiveBucketInputIterator>& shadowIterators,
     bool keepShadowedLifecycleEntries);
-}
+
+} // namespace stellar

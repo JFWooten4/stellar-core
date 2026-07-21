@@ -568,4 +568,5 @@ SCP::envToStr(SCPStatement const& st, bool fullKeys) const
     oss << " }";
     return oss.str();
 }
-}
+
+} // namespace stellar

@@ -564,4 +564,5 @@ VerifyLedgerChainWork::onRun()
         throw std::runtime_error("unexpected VerifyLedgerChainWork state");
     }
 }
-}
+
+} // namespace stellar

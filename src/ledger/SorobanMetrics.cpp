@@ -375,4 +375,5 @@ SorobanMetrics::publishAndResetLedgerWideMetrics()
     mLedgerInsnsCount = 0;
     mLedgerInsnsExclVmCount = 0;
 }
-}
+
+} // namespace stellar

@@ -23,4 +23,5 @@ protocolVersionEquals(uint32_t protocolVersion, ProtocolVersion equalsVersion)
 {
     return protocolVersion == static_cast<uint32_t>(equalsVersion);
 }
-}
+
+} // namespace stellar

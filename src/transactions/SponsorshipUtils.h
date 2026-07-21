@@ -103,4 +103,5 @@ SponsorshipResult createSignerWithPossibleSponsorship(
 void removeSignerWithPossibleSponsorship(
     AbstractLedgerTxn& ltx, LedgerTxnHeader const& header,
     std::vector<Signer>::const_iterator const& signerIt, LedgerTxnEntry& acc);
-}
+
+} // namespace stellar

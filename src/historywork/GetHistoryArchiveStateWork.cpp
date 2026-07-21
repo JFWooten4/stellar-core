@@ -123,4 +123,5 @@ GetHistoryArchiveStateWork::getStatus() const
     return fmt::format(FMT_STRING("Downloading state file {} for ledger {}"),
                        getRemoteName(), ledgerString);
 }
-}
+
+} // namespace stellar

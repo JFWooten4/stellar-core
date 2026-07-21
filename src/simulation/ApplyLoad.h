@@ -195,4 +195,4 @@ std::pair<uint32_t, uint32_t> noisyBinarySearch(
     std::function<void(uint32_t, bool)> const& iterationResult = nullptr);
 #endif
 
-}
+} // namespace stellar

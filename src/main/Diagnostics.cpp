@@ -144,4 +144,5 @@ bucketStats(std::string const& filename, bool aggregateAccounts)
     fmt::print("{}\n", root.toStyledString());
 }
 }
-}
+
+} // namespace stellar

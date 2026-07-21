@@ -197,4 +197,5 @@ bool operator==(InternalLedgerKey const& lhs, InternalLedgerKey const& rhs);
 bool operator!=(InternalLedgerKey const& lhs, InternalLedgerKey const& rhs);
 bool operator==(InternalLedgerEntry const& lhs, InternalLedgerEntry const& rhs);
 bool operator!=(InternalLedgerEntry const& lhs, InternalLedgerEntry const& rhs);
-}
+
+} // namespace stellar

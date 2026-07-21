@@ -28,4 +28,5 @@ class ResolveSnapshotWork : public BasicWork
         return true;
     };
 };
-}
+
+} // namespace stellar

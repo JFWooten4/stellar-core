@@ -868,4 +868,5 @@ NominationProtocol::getLatestMessage(NodeID const& id) const
     }
     return nullptr;
 }
-}
+
+} // namespace stellar

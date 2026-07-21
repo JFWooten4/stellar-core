@@ -1446,4 +1446,4 @@ OverlayManagerImpl::getOverlayThreadSnapshot()
     return *mOverlayThreadSnapshot;
 }
 
-}
+} // namespace stellar

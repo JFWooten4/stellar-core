@@ -10056,4 +10056,5 @@ std::array<std::string, P23_CORRUPTED_AFFECTED_ASSETS_COUNT> const
 
 } // namespace internal
 } // namespace p23_hot_archive_bug
+
 } // namespace stellar

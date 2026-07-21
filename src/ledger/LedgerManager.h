@@ -399,4 +399,5 @@ class LedgerManager
     virtual void handleUpgradeAffectingSorobanInMemoryStateSize(
         AbstractLedgerTxn& upgradeLtx) = 0;
 };
-}
+
+} // namespace stellar

@@ -165,4 +165,5 @@ PutSnapshotFilesWork::onSuccess()
 {
     cleanup();
 }
-}
+
+} // namespace stellar

@@ -466,4 +466,5 @@ class InMemorySorobanState
     void clearForTesting();
 #endif
 };
-}
+
+} // namespace stellar

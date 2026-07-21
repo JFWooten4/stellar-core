@@ -46,4 +46,5 @@ PublishWork::onSuccess()
     mApp.getHistoryManager().historyPublished(
         mSnapshot->mLocalState.currentLedger, mOriginalBuckets, true);
 }
-}
+
+} // namespace stellar

@@ -68,4 +68,5 @@ class LiquidityPoolDepositOpFrame : public OperationFrame
         return res.tr().liquidityPoolDepositResult().code();
     }
 };
-}
+
+} // namespace stellar

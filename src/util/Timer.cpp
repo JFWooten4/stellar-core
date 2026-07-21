@@ -748,4 +748,5 @@ VirtualTimer::async_wait(std::function<void()> const& onSuccess,
         mEvents.push_back(ve);
     }
 }
-}
+
+} // namespace stellar

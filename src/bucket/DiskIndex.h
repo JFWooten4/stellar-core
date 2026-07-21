@@ -198,4 +198,5 @@ template <class BucketT> class DiskIndex : public NonMovableOrCopyable
     bool operator==(DiskIndex<BucketT> const& inRaw) const;
 #endif
 };
-}
+
+} // namespace stellar

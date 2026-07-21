@@ -354,4 +354,5 @@ class HerderSCPDriver : public SCPDriver
                                             StellarValue& sv) const;
     void extractValidUpgrades(StellarValue& sv, bool nomination) const;
 };
-}
+
+} // namespace stellar

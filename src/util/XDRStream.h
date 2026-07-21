@@ -514,4 +514,5 @@ class XDROutputFileStream : public OutputFileStream
         }
     }
 };
-}
+
+} // namespace stellar

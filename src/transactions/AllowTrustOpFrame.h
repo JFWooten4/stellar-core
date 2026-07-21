@@ -58,4 +58,5 @@ class AllowTrustOpFrame : public TrustFlagsOpFrameBase
         return res.tr().allowTrustResult().code();
     }
 };
-}
+
+} // namespace stellar

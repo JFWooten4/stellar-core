@@ -146,4 +146,5 @@ LedgerTxnHeader::swap(LedgerTxnHeader& other)
 {
     mImpl.swap(other.mImpl);
 }
-}
+
+} // namespace stellar

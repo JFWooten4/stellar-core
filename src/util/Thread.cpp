@@ -116,4 +116,5 @@ runCurrentThreadWithMediumPriority()
 }
 
 #endif
-}
+
+} // namespace stellar

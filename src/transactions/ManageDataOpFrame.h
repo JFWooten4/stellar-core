@@ -41,4 +41,5 @@ class ManageDataOpFrame : public OperationFrame
         return res.tr().manageDataResult().code();
     }
 };
-}
+
+} // namespace stellar

@@ -118,4 +118,5 @@ class HotArchiveBucketIndex : public NonMovableOrCopyable
     bool operator==(HotArchiveBucketIndex const& in) const;
 #endif
 };
-}
+
+} // namespace stellar

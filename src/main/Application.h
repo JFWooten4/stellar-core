@@ -371,4 +371,5 @@ class Application
     {
     }
 };
-}
+
+} // namespace stellar

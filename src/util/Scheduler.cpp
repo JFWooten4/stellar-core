@@ -389,4 +389,5 @@ Scheduler::queueLength(std::string const& q, ActionType type) const
     return eq->size();
 }
 #endif
-}
+
+} // namespace stellar

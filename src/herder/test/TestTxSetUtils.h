@@ -33,4 +33,5 @@ makeNonValidatedGeneralizedTxSet(PhaseComponents const& classicTxsPerBaseFee,
                                  Application& app,
                                  Hash const& previousLedgerHash);
 } // namespace testtxset
+
 } // namespace stellar

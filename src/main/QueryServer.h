@@ -108,4 +108,5 @@ class QueryServer
     // historical ledger lookups.
     void addSnapshot(ImmutableLedgerDataPtr state);
 };
-}
+
+} // namespace stellar

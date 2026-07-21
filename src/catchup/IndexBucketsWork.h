@@ -47,4 +47,5 @@ template <class BucketT> class IndexBucketsWork : public Work
     State doWork() override;
     void doReset() override;
 };
-}
+
+} // namespace stellar

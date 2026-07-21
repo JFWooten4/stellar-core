@@ -182,4 +182,5 @@ class CatchupRange
     explicit CatchupRange(uint32_t applyBucketsAtLedger,
                           LedgerRange const& replayRange);
 };
-}
+
+} // namespace stellar

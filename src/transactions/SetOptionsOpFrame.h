@@ -42,4 +42,5 @@ class SetOptionsOpFrame : public OperationFrame
         return res.tr().setOptionsResult().code();
     }
 };
-}
+
+} // namespace stellar

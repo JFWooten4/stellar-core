@@ -45,4 +45,5 @@ WorkWithCallback::onRun()
     }
     return BasicWork::State::WORK_SUCCESS;
 }
-}
+
+} // namespace stellar

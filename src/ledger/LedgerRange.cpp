@@ -41,4 +41,5 @@ operator!=(LedgerRange const& x, LedgerRange const& y)
 {
     return !(x == y);
 }
-}
+
+} // namespace stellar

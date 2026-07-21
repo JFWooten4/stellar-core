@@ -186,4 +186,5 @@ PaymentOpFrame::doesAccessFrozenKey(
     }
     return false;
 }
-}
+
+} // namespace stellar

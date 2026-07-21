@@ -256,4 +256,5 @@ zeroNonDeterministicDiagnostics(LedgerCloseMeta& lcm)
         abort();
     }
 }
-}
+
+} // namespace stellar

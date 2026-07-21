@@ -98,7 +98,8 @@ curve25519Decrypt(Curve25519Secret const& localSecret,
 
     return decrypted;
 }
-}
+
+} // namespace stellar
 
 namespace std
 {

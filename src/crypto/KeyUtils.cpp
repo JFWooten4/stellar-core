@@ -27,4 +27,5 @@ KeyUtils::getKeyVersionSize(strKey::StrKeyVersionByte keyVersion)
                                     std::to_string(keyVersion));
     }
 }
-}
+
+} // namespace stellar

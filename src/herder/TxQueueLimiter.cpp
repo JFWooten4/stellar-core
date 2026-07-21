@@ -312,4 +312,5 @@ TxQueueLimiter::markTxForFlood(TransactionFrameBasePtr const& tx,
 {
     mTxsToFlood->add(tx, ledgerVersion);
 }
-}
+
+} // namespace stellar

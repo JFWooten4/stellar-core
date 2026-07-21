@@ -455,4 +455,5 @@ Topologies::asymmetric(Simulation::Mode mode, Hash const& networkID,
     }
     return s;
 }
-}
+
+} // namespace stellar

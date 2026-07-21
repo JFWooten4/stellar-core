@@ -178,4 +178,5 @@ InMemoryIndex::operator==(InMemoryIndex const& in) const
            mTypeRanges == in.mTypeRanges && mCounters == in.mCounters;
 }
 #endif
-}
+
+} // namespace stellar

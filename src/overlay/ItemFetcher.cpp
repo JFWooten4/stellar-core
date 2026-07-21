@@ -198,4 +198,5 @@ ItemFetcher::getTracker(Hash const& h)
     return it->second;
 }
 #endif
-}
+
+} // namespace stellar

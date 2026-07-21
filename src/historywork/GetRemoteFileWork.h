@@ -38,4 +38,5 @@ class GetRemoteFileWork : public RunCommandWork
     void onSuccess() override;
     void onFailureRaise() override;
 };
-}
+
+} // namespace stellar

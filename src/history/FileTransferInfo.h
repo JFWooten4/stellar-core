@@ -133,4 +133,5 @@ class FileTransferInfo
         return fs::remoteName(getTypeString(), mHexDigits, "xdr.gz");
     }
 };
-}
+
+} // namespace stellar

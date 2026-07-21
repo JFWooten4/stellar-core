@@ -38,4 +38,5 @@ class RunCommandWork : public BasicWork
     BasicWork::State onRun() override;
     bool onAbort() override;
 };
-}
+
+} // namespace stellar

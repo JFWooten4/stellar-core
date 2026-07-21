@@ -849,4 +849,5 @@ LedgerTxnRoot::Impl::bulkLoadOffers(UnorderedSet<LedgerKey> const& keys) const
         return {};
     }
 }
-}
+
+} // namespace stellar

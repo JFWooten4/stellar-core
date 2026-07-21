@@ -192,4 +192,5 @@ class LiveBucket : public BucketBase<LiveBucket, LiveBucketIndex>,
 
     friend class SearchableLiveBucketListSnapshot;
 };
-}
+
+} // namespace stellar

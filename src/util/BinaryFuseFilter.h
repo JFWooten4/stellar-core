@@ -87,4 +87,5 @@ typedef BinaryFuseFilter<uint16_t> BinaryFuseFilter16;
 // False positive rate: 1 / 4 billion
 // Approximate bits per entry: 36
 typedef BinaryFuseFilter<uint32_t> BinaryFuseFilter32;
-}
+
+} // namespace stellar

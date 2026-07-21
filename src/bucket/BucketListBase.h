@@ -554,4 +554,5 @@ template <class BucketT> class BucketListBase
     // FutureBuckets
     uint64_t getSize() const;
 };
-}
+
+} // namespace stellar

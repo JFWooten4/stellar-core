@@ -49,4 +49,5 @@ class LedgerTxnHeader
     static std::shared_ptr<Impl> makeSharedImpl(AbstractLedgerTxn& ltx,
                                                 LedgerHeader& current);
 };
-}
+
+} // namespace stellar

@@ -79,4 +79,5 @@ class TxDemandsManager : private NonMovableOrCopyable
     // Compute delay between demand retries, with linear backoff
     std::chrono::milliseconds retryDelayDemand(int numAttemptsMade) const;
 };
-}
+
+} // namespace stellar

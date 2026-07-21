@@ -77,4 +77,5 @@ struct CheckpointRange final
 
     std::string toString() const;
 };
-}
+
+} // namespace stellar

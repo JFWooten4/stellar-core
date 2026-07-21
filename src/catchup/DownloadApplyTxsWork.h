@@ -46,4 +46,5 @@ class DownloadApplyTxsWork : public BatchWork
     void resetIter() override;
     void onSuccess() override;
 };
-}
+
+} // namespace stellar

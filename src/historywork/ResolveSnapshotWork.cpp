@@ -49,4 +49,5 @@ ResolveSnapshotWork::onRun()
         return State::WORK_WAITING;
     }
 }
-}
+
+} // namespace stellar

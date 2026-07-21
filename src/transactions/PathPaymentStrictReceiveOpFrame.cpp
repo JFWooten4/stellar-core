@@ -298,4 +298,5 @@ PathPaymentStrictReceiveOpFrame::setResultConstraintNotMet(
 {
     innerResult(res).code(PATH_PAYMENT_STRICT_RECEIVE_OVER_SENDMAX);
 }
-}
+
+} // namespace stellar

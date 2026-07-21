@@ -98,4 +98,5 @@ void for_versions(std::vector<uint32> const& versions, Config const& cfg,
 void for_all_versions_except(std::vector<uint32> const& versions,
                              Application& app,
                              std::function<void(void)> const& f);
-}
+
+} // namespace stellar

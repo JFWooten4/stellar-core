@@ -28,4 +28,5 @@ class ConstantProductInvariant : public Invariant
         LedgerTxnDelta const& ltxDelta,
         std::vector<ContractEvent> const& events, AppConnector& app) override;
 };
-}
+
+} // namespace stellar

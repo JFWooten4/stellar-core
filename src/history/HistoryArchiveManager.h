@@ -58,4 +58,5 @@ class HistoryArchiveManager
     Application& mApp;
     std::vector<std::shared_ptr<HistoryArchive>> mArchives;
 };
-}
+
+} // namespace stellar

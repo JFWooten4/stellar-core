@@ -114,4 +114,5 @@ class LocalNode
     static bool isVBlockingInternal(SCPQuorumSet const& qset,
                                     std::vector<NodeID> const& nodeSet);
 };
-}
+
+} // namespace stellar

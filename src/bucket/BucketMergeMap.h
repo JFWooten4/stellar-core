@@ -46,4 +46,5 @@ class BucketMergeMap
     bool findMergeFor(MergeKey const& input, Hash& output);
     void getOutputsUsingInput(Hash const& input, std::set<Hash>& outputs) const;
 };
-}
+
+} // namespace stellar

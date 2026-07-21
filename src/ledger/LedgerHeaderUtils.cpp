@@ -177,4 +177,5 @@ maybeDropAndCreateNew(Database& db)
         << "CREATE INDEX ledgersbyseq ON ledgerheaders ( ledgerseq );";
 }
 }
-}
+
+} // namespace stellar
