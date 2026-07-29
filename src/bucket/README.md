@@ -22,7 +22,7 @@ more-recently-modified entries reside in smaller, lower-level buckets.
 
 The cumulative hash of the bucket levels creates a single "BucketList hash",
 which is stored in the
-[ledger header](../protocol-curr/xdr/Stellar-ledger.x) in order to unambiguously
+[ledger header](https://github.com/stellar/stellar-xdr/blob/main/Stellar-ledger.x) in order to unambiguously
 denote the set of entries that exist at each ledger-close.
 
 The individual buckets that compose each level are checkpointed to history

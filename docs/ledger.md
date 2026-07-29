@@ -15,7 +15,7 @@ title: Ledger
 
 - **Ledger header**: The ledger's header contains meta data about the ledger,
   including the hash of the previous ledger (thus recording the chain) and its
-  own hash. (See [`src/protocol-curr/xdr/Stellar-ledger.x`](/src/protocol-curr/xdr/Stellar-ledger.x))
+  own hash. (See [`Stellar-ledger.x`](https://github.com/stellar/stellar-xdr/blob/main/Stellar-ledger.x))
 
 
 `Stellar-core` maintains the content of the latest ledger and of the ledger

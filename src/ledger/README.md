@@ -23,7 +23,7 @@ behaves just like pointers in typical data structures but with added
 security guarantees.
 
 See the protocol file for the object definitions.
-[`src/protocol-curr/xdr/Stellar-ledger.x`](../protocol-curr/xdr/Stellar-ledger.x)
+[`Stellar-ledger.x`](https://github.com/stellar/stellar-xdr/blob/main/Stellar-ledger.x)
 
 One can think of the historical chain as a linked list of LedgerHeaders:
 
@@ -83,7 +83,7 @@ the data contained in a ledger.
 
 ## Ledger state entries
 Ledger entries are specified in
-[`src/protocol-curr/xdr/Stellar-ledger-entries.x`](../protocol-curr/xdr/Stellar-ledger-entries.x)
+[`Stellar-ledger-entries.x`](https://github.com/stellar/stellar-xdr/blob/main/Stellar-ledger-entries.x)
 
 ### AccountEntry
 This entry represents an account. In Stellar, everything is centered around
