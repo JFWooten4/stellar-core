@@ -99,5 +99,5 @@ source directory and its own dedicated `README.md`.
 * **src/protocol-curr/xdr** contains the definition of the wire protocol in the [`XDR`
     (RFC4506)](https://tools.ietf.org/html/rfc4506.html) specification language.
 
-* **src/xdr** contains the wire protocol's generated C++ classes, built from
-  the definitions in `src/protocol-curr/xdr`.
+* **src/xdr** is created in the build tree and contains C++ headers generated
+  from the XDR definitions in `src/protocol-curr/xdr`.
