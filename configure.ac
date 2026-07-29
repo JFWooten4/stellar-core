@@ -432,9 +432,6 @@ fi
 AC_MSG_RESULT($XDRC)
 AC_SUBST(XDRC)
 
-# Directory needed for xdrc output (won't exist in build directory)
-mkdir -p src/xdr
-
 if test -s "$srcdir/lib/medida.mk"; then
    libmedida_CFLAGS='-isystem $(top_srcdir)/lib/libmedida/src'
    libmedida_LIBS='$(top_builddir)/lib/libmedida.a'
