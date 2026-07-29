@@ -148,7 +148,7 @@ Transactions must be signed before being submitted to the network.
 
 ## Well formed signatures
 A signature is a digital signature of the body of a transaction, generated with a private key.
-Only some keys are authorized to sign transactions, see the "Signers" section below for more detail.
+Only some keys are authorized to sign transactions, see the "Signers" section below for more details.
 
 See the section on "Validity of a transaction" and "Validity of an operation" 
 for other requirements that must be met by the transaction in terms of signatures.
@@ -166,7 +166,7 @@ If there are other signers listed on the account, they can still continue to sig
 "Signers" refers to the master key or to signers added later.
 
 A signer is defined as the pair (public key, weight) - see the "Thresholds" 
-section below for more detail.
+section below for more details.
 
 Adding signers increases the reserve for the account.
 

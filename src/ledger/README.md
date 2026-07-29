@@ -94,7 +94,7 @@ Accounts control the access rights to balances.
 The other entries are "add-ons" to the main account entry; with every new entry
 attached to the account, the minimum balance in LUM goes up for the
 account (also known as reserve).
-See `LedgerManager::getMinBalance` for more detail.
+See `LedgerManager::getMinBalance` for more details.
 
 ### TrustLineEntry
 Trust lines are lines of credit the account has given a particular issuer in a
@@ -125,7 +125,7 @@ current ledger sequence number, or last closed ledger), and also to
 close the current ledger given a context that includes "close time" and
 "transaction set".
 
-See the "Closing ledger" section for more detail on what happens when
+See the "Closing ledger" section for more details on what happens when
 closing a ledger.
 
 ## LedgerDelta
@@ -136,7 +136,7 @@ LedgerDelta is a nestable structure, which allows fine grain control of which
 subset of changes to include or not in the final set of changes that will be
 committed to the ledger.
 
-For more detail see the "Closing a ledger" section.
+For more details see the "Closing a ledger" section.
 
 # Closing a ledger
 
@@ -150,11 +150,11 @@ but when it comes to actually applying them, they need to be sorted such that
 transactions for a given account are applied in sequence number order and also
 randomized enough so that it becomes unfeasible to submit a transaction and
 guarantee that it will be executed before or after another transaction in the set.
-_See `TxSetFrame::getTxsInApplyOrder` for more detail._
+_See `TxSetFrame::getTxsInApplyOrder` for more details._
 
 2. Once the list of transactions to apply is computed, each transaction is
 applied to the ledger.
-_See [`src/transactions/README.md`](../transactions/README.md) for more detail
+_See [`src/transactions/README.md`](../transactions/README.md) for more details
 on how transactions are applied._
 
 3. After applying each transaction its result is stored in the transaction history
@@ -166,7 +166,7 @@ for the entire Ledger close is fed to the BucketManager (see [BucketManager](#bu
 
 5. At this point the module notifies the history subsystem that a ledger was
 closed so that it can publish the new ledger/transaction set for long term storage.
-_See [`src/history/README.md`](../history/README.md) for more detail._
+_See [`src/history/README.md`](../history/README.md) for more details._
 
 # Storage
 
@@ -176,7 +176,7 @@ The ledger state is persisted in two ways.
 We use SQL tables to store data. Each *Frame class is responsible for storing
 and retrieving data in its respective table.
 
-For more detail on the SQL implementation, see [`src/database/`](../database/)
+For more details on the SQL implementation, see [`src/database/`](../database/)
 
 ### Hot Ledger Data
 
@@ -195,4 +195,4 @@ BucketManager to add it to the "L0" bucket.
 The resulting set is used to compute the hash of the entire set of
 Ledger Entries.
 
-See [`src/bucket/README.md`](../bucket/README.md) for more detail.
+See [`src/bucket/README.md`](../bucket/README.md) for more details.

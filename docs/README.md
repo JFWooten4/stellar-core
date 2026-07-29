@@ -11,7 +11,7 @@ implementation of the Stellar Consensus Protocol configured to construct a chain
 of ledgers that are guaranteed to be in agreement across all the participating
 nodes at all times.
 
-For more detail on the Stellar Consensus Protocol and how it establishes this
+For more details on the Stellar Consensus Protocol and how it establishes this
 guarantee see [`src/scp/README.md`](/src/scp/README.md).
 
 

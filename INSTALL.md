@@ -44,7 +44,7 @@ For convenience, we also keep a record in the form of release tags of the
 
 We maintain a pre-configured Docker configuration ready for development with VSCode.
 
-See the [dev container's README](.devcontainer/README.md) for more detail.
+See the [dev container's README](.devcontainer/README.md) for more details.
 
 ## Runtime dependencies
 

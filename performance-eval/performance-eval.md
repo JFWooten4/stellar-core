@@ -76,7 +76,7 @@ This scenario looks at the overhead of flooding transactions and SCP messages (r
 
 ### Built-in load generator
 stellar-core has a built-in load generator that allows to inject transactions on private networks.
-See the `generateload` [command](../docs/software/commands.md) for more detail.
+See the `generateload` [command](../docs/software/commands.md) for more details.
 
 ## Micro-benchmarks
 

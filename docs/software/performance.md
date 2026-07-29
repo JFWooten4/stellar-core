@@ -35,7 +35,7 @@ For purposes of understanding performance, the following subsystems of `stellar-
   7. **History**: This subsystem is responsible for queueing outgoing history records being sent to a _history archive_, as well as fetching and applying history records _from_ such an archive if the node falls out of sync with its peers and needs to catch up. Usually history is lightly loaded, but when it is active it can generate load on CPU and network, as well as against **ledger** (and thereby **database**).
   8. **Bucket list**: This subsystem maintains a redundant copy of the database in a log-structured merge tree form on disk, that is amenable to efficient delta calculation and cryptographic hashing. The former is used for "fast" catch-up, the latter for calculating a state-of-the-world hash at each ledger close. Buckets in the bucket list are written to disk and rewritten at exponentially-distributed intervals, with less-frequently-written buckets being commensurately exponentially larger. Thus periodic spikes in IO load will occur when larger buckets are (re)written; this happens on background threads and is optimized to be mostly-sequential, but it is still noticeable.
 
-For more detail on these subsystems, see the [architecture.md](../architecture.md) document.
+For more details on these subsystems, see the [architecture.md](../architecture.md) document.
 
 ## Variation in node function
 
